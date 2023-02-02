@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ma:holy_ingot"
+    }
+  ],
+  "result": {
+    "item": "ma:holy_nugget",
+    "count": 9
+  }
+}

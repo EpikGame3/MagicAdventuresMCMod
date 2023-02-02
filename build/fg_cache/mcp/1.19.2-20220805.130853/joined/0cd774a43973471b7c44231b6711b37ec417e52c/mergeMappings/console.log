@@ -1,0 +1,16 @@
+JVM:         D:\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\mergeMappings\output.jar"
+Classpath:   C:\Users\ACER-PC\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\mergeMappings\output.jar

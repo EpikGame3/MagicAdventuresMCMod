@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:fire_planks"
+    },
+    "1": {
+      "item": "ma:fire_planks"
+    },
+    "2": {
+      "item": "ma:fire_planks"
+    }
+  },
+  "result": {
+    "item": "ma:fire_slab",
+    "count": 6
+  }
+}

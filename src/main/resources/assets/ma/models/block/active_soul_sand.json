@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/soul_ore",
+    "particle": "ma:blocks/soul_ore"
+  },
+  "render_type": "solid"
+}

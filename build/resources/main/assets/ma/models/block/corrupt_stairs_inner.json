@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "ma:blocks/corruptplanks",
+    "top": "ma:blocks/corruptplanks",
+    "side": "ma:blocks/corruptplanks"
+  },
+  "render_type": "solid"
+}

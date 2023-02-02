@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "mwbi_text"
+      },
+      "name": "default"
+    }
+  }
+}

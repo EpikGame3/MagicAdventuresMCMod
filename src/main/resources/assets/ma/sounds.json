@@ -1,0 +1,30 @@
+{
+  "maxwell_break": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "ma:krik-koshki-kotoroy-nastupili-na-hvost",
+        "stream": false
+      }
+    ]
+  },
+  "maxwell_placed": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "ma:myaukane-domashney-koshki-37030",
+        "stream": false
+      }
+    ]
+  },
+  "the_only_thing_i_know_for_real": {
+    "category": "music",
+    "subtitle": "subtitles.the_only_thing_i_know_for_real",
+    "sounds": [
+      {
+        "name": "ma:the_only_thing_i_kniw_for_real",
+        "stream": true
+      }
+    ]
+  }
+}

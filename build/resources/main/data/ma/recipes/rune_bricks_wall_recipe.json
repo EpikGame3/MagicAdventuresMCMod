@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:rune_stone_brick"
+    },
+    "1": {
+      "item": "ma:rune_stone_brick"
+    },
+    "2": {
+      "item": "ma:rune_stone_brick"
+    },
+    "3": {
+      "item": "ma:rune_stone_brick"
+    },
+    "4": {
+      "item": "ma:rune_stone_brick"
+    },
+    "5": {
+      "item": "ma:rune_stone_brick"
+    }
+  },
+  "result": {
+    "item": "ma:rune_brick_wall",
+    "count": 6
+  }
+}

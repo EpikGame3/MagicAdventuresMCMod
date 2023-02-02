@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "ma:fire_ingot"
+    },
+    "4": {
+      "item": "ma:fire_ingot"
+    },
+    "5": {
+      "item": "ma:fire_crystal"
+    },
+    "6": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "ma:vt_7",
+    "count": 1
+  }
+}

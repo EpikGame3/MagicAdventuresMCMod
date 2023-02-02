@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ma:block/corrupt_slab"
+    },
+    "type=top": {
+      "model": "ma:block/corrupt_slab_top"
+    },
+    "type=double": {
+      "model": "ma:block/corrupt_slab_full"
+    }
+  }
+}

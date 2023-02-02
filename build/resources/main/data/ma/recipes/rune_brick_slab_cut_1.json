@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "ma:rune_stone_brick"
+  },
+  "result": "ma:rune_brick_slab"
+}

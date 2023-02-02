@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "addition": {
+    "item": "ma:fire_crystal"
+  },
+  "result": {
+    "item": "ma:fire_ingot"
+  }
+}

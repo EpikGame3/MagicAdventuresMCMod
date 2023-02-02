@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ma:magic_forest",
+    "ma:rune_forest",
+    "ma:corrupted_forest"
+  ]
+}

@@ -1,0 +1,5269 @@
+{
+  "mod_elements": [
+    {
+      "name": "ManaBar",
+      "type": "overlay",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar"
+    },
+    {
+      "name": "ManaBar1",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBar2",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBar3",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBar4",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBar5",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_5",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBar6",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBar7",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBar8",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_8",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBarOverload",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_bar_overload",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConcentratedManaCrystalRightclicked",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concentrated_mana_crystal_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConcentratedManaCrystal",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concentrated_mana_crystal"
+    },
+    {
+      "name": "StoneStaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneStaffEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneStaffCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneStaff",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff"
+    },
+    {
+      "name": "StoneStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireStaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireStaffCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireStaff",
+      "type": "rangeditem",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff"
+    },
+    {
+      "name": "WaterStaffEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterStaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterStaffCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaterStaff",
+      "type": "rangeditem",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff"
+    },
+    {
+      "name": "IceStaffCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_staff_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceStaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_staff_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_staff_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceStaff",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_staff"
+    },
+    {
+      "name": "ObsidianStaffEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_staff_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianStaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_staff_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianStaffCanUseRangedItem",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_staff_can_use_ranged_item",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianStaff",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_staff"
+    },
+    {
+      "name": "MagicWeapons",
+      "type": "tab",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_weapons"
+    },
+    {
+      "name": "BrockenManaCrystal",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brocken_mana_crystal"
+    },
+    {
+      "name": "ManaCrystal",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystal"
+    },
+    {
+      "name": "FireCrystal",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_crystal"
+    },
+    {
+      "name": "MagicResourses",
+      "type": "tab",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_resourses"
+    },
+    {
+      "name": "WaterCrystal",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_crystal"
+    },
+    {
+      "name": "StoneCrystal",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_crystal"
+    },
+    {
+      "name": "ObsidianCrystal",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_crystal"
+    },
+    {
+      "name": "IceCrystal",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal"
+    },
+    {
+      "name": "StoneEssention",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_essention"
+    },
+    {
+      "name": "FireEssention",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_essention"
+    },
+    {
+      "name": "WaterEssention",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_essention"
+    },
+    {
+      "name": "IceEssention",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_essention"
+    },
+    {
+      "name": "ObsidianEssention",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_essention"
+    },
+    {
+      "name": "FireIngot",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot"
+    },
+    {
+      "name": "WaterIngot",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_ingot"
+    },
+    {
+      "name": "HolyIngot",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_ingot"
+    },
+    {
+      "name": "HolyNugget",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_nugget"
+    },
+    {
+      "name": "HolyCast",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_cast"
+    },
+    {
+      "name": "HolyRod",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_rod"
+    },
+    {
+      "name": "HolyWater",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water"
+    },
+    {
+      "name": "WaterOre",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_ore"
+    },
+    {
+      "name": "StoneManaOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_mana_ore"
+    },
+    {
+      "name": "DeepslateManaOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_mana_ore"
+    },
+    {
+      "name": "FireOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ore"
+    },
+    {
+      "name": "StoneOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_ore"
+    },
+    {
+      "name": "StoneIceOre",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_ice_ore"
+    },
+    {
+      "name": "DeepslateIceOre",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ice_ore"
+    },
+    {
+      "name": "ObsidianOre",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_ore"
+    },
+    {
+      "name": "ManaCrystalRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystal_recipe"
+    },
+    {
+      "name": "FireCrystalRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_crystal_recipe"
+    },
+    {
+      "name": "WaterCrystalRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_crystal_recipe"
+    },
+    {
+      "name": "IceCrystalRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal_recipe"
+    },
+    {
+      "name": "StoneCrystalRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_crystal_recipe"
+    },
+    {
+      "name": "ObsidianCrystalRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_crystal_recipe"
+    },
+    {
+      "name": "ConcentratedManaCrystalRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concentrated_mana_crystal_recipe"
+    },
+    {
+      "name": "HolyWaterRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_recipe"
+    },
+    {
+      "name": "HolyIngotRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_ingot_recipe"
+    },
+    {
+      "name": "HolyNuggetRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_nugget_recipe"
+    },
+    {
+      "name": "HolyCastRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_cast_recipe"
+    },
+    {
+      "name": "HolyRodRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_rod_recipe"
+    },
+    {
+      "name": "VTE7",
+      "type": "tool",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vt_7"
+    },
+    {
+      "name": "FireIngotRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_recipe"
+    },
+    {
+      "name": "WaterIngotRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_ingot_recipe"
+    },
+    {
+      "name": "VTE7Recipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vte_7_recipe"
+    },
+    {
+      "name": "FireStaffRecipe",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_recipe"
+    },
+    {
+      "name": "WaterStaffRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff_recipe"
+    },
+    {
+      "name": "StoneStaffRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff_recipe"
+    },
+    {
+      "name": "IceStaffRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_staff_recipe"
+    },
+    {
+      "name": "ObsidianStaffRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_staff_recipe"
+    },
+    {
+      "name": "BrockenManaCrystalObtaining",
+      "type": "achievement",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brocken_mana_crystal_obtaining"
+    },
+    {
+      "name": "ManaCrystalObtaining",
+      "type": "achievement",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_crystal_obtaining"
+    },
+    {
+      "name": "HolyWaterObtaining",
+      "type": "achievement",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_obtaining"
+    },
+    {
+      "name": "MagicAdventures",
+      "type": "achievement",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_adventures"
+    },
+    {
+      "name": "HolyIngotObtaining",
+      "type": "achievement",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_ingot_obtaining"
+    },
+    {
+      "name": "StoneSoulObtaining",
+      "type": "achievement",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_soul_obtaining"
+    },
+    {
+      "name": "StoneCrystalObtaining",
+      "type": "achievement",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_crystal_obtaining"
+    },
+    {
+      "name": "StoneStaffObtaining",
+      "type": "achievement",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff_obtaining"
+    },
+    {
+      "name": "FireSoulObtaining",
+      "type": "achievement",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_soul_obtaining"
+    },
+    {
+      "name": "FireCrystalObtaining",
+      "type": "achievement",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_crystal_obtaining"
+    },
+    {
+      "name": "FireStaffObtaining",
+      "type": "achievement",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_obtaining"
+    },
+    {
+      "name": "WaterSoulObtainig",
+      "type": "achievement",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_soul_obtainig"
+    },
+    {
+      "name": "WaterCrystalObtaining",
+      "type": "achievement",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_crystal_obtaining"
+    },
+    {
+      "name": "WaterStaffObtaining",
+      "type": "achievement",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff_obtaining"
+    },
+    {
+      "name": "IceSoulObtaining",
+      "type": "achievement",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_soul_obtaining"
+    },
+    {
+      "name": "IceCrystalObtaining",
+      "type": "achievement",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_crystal_obtaining"
+    },
+    {
+      "name": "IceStaffObtaining",
+      "type": "achievement",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_staff_obtaining"
+    },
+    {
+      "name": "ObsidianSoulObtaining",
+      "type": "achievement",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_soul_obtaining"
+    },
+    {
+      "name": "ObsidianCrystalObtaining",
+      "type": "achievement",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_crystal_obtaining"
+    },
+    {
+      "name": "ObsidianStaffObtaining",
+      "type": "achievement",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_staff_obtaining"
+    },
+    {
+      "name": "WaterIngotObtaining",
+      "type": "achievement",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_ingot_obtaining"
+    },
+    {
+      "name": "FireIngotObtaining",
+      "type": "achievement",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_obtaining"
+    },
+    {
+      "name": "VTE7Obtaining",
+      "type": "achievement",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vte_7_obtaining"
+    },
+    {
+      "name": "ConcentratedManaCrystalUse",
+      "type": "achievement",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concentrated_mana_crystal_use"
+    },
+    {
+      "name": "HolyHammer",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_hammer"
+    },
+    {
+      "name": "HolyHammerObsidianed",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_hammer_obsidianed"
+    },
+    {
+      "name": "HolyPlate",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_plate"
+    },
+    {
+      "name": "HolyHolyCastingHammer",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_holy_casting_hammer"
+    },
+    {
+      "name": "ObsidianPlate",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_plate"
+    },
+    {
+      "name": "HolyString",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_string"
+    },
+    {
+      "name": "HolyBlade",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_blade"
+    },
+    {
+      "name": "HolySteelBlock",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_steel_block"
+    },
+    {
+      "name": "HolyAxeBlade",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_axe_blade"
+    },
+    {
+      "name": "HolyGard",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_gard"
+    },
+    {
+      "name": "MagicMeleeWeapons",
+      "type": "tab",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_melee_weapons"
+    },
+    {
+      "name": "ExcaliburLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Excalibur",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur"
+    },
+    {
+      "name": "TrueExcaliburLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_excalibur_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrueExcalibur",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_excalibur"
+    },
+    {
+      "name": "HolyStringRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_string_recipe"
+    },
+    {
+      "name": "HolyPlateRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_plate_recipe"
+    },
+    {
+      "name": "HolySteelBlockCraft",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_steel_block_craft"
+    },
+    {
+      "name": "HolyGardRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_gard_recipe"
+    },
+    {
+      "name": "UncompliteHolyBlade",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncomplite_holy_blade"
+    },
+    {
+      "name": "HolyBladeCraftStage1",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_blade_craft_stage_1"
+    },
+    {
+      "name": "HolyBladeRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_blade_recipe"
+    },
+    {
+      "name": "HolyAxeBladeRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_axe_blade_recipe"
+    },
+    {
+      "name": "ObsidianPlateRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_plate_recipe"
+    },
+    {
+      "name": "HolyHammerRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_hammer_recipe"
+    },
+    {
+      "name": "HolyHammerUpgrade",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_hammer_upgrade"
+    },
+    {
+      "name": "FireGard",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gard"
+    },
+    {
+      "name": "ExcaliburUpgrade",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur_upgrade"
+    },
+    {
+      "name": "ExcaliburRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur_recipe"
+    },
+    {
+      "name": "HolyKatana",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_katana"
+    },
+    {
+      "name": "IceKatanaLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_katana_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceKatana",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_katana"
+    },
+    {
+      "name": "IceBlade",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_blade"
+    },
+    {
+      "name": "HolyKatanaRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_katana_recipe"
+    },
+    {
+      "name": "HolyKatanaUpgrade",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_katana_upgrade"
+    },
+    {
+      "name": "IceBladeRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_blade_recipe"
+    },
+    {
+      "name": "TinkersHammerRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinkers_hammer_recipe"
+    },
+    {
+      "name": "Gungnir",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gungnir"
+    },
+    {
+      "name": "TrueGungnir",
+      "type": "rangeditem",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "true_gungnir"
+    },
+    {
+      "name": "GungnirRecipe",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gungnir_recipe"
+    },
+    {
+      "name": "GungnirUpgrade",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gungnir_upgrade"
+    },
+    {
+      "name": "StoneAxeBlade",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_blade"
+    },
+    {
+      "name": "HolyBattleAxe",
+      "type": "tool",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_battle_axe"
+    },
+    {
+      "name": "StoneBattleAxe",
+      "type": "tool",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_battle_axe"
+    },
+    {
+      "name": "BattleAxeUpgrade",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battle_axe_upgrade"
+    },
+    {
+      "name": "HolyAxe",
+      "type": "tool",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_axe"
+    },
+    {
+      "name": "HolyPickaxe",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_pickaxe"
+    },
+    {
+      "name": "HolyAxeRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_axe_recipe"
+    },
+    {
+      "name": "HolyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_pickaxe_recipe"
+    },
+    {
+      "name": "HeavyHolyArmor",
+      "type": "armor",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_holy_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HeavyHolyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_holy_armor_helmet_recipe"
+    },
+    {
+      "name": "HeavyHolyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_holy_armor_body_recipe"
+    },
+    {
+      "name": "HeavyHolyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_holy_armor_leggings_recipe"
+    },
+    {
+      "name": "HeavyHolyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_holy_armor_boots_recipe"
+    },
+    {
+      "name": "ObsidianedHevyHolyArmor",
+      "type": "armor",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianed_hevy_holy_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ObsidianedHevyHolyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianed_hevy_holy_armor_helmet_recipe"
+    },
+    {
+      "name": "ObsidianedHevyHolyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianed_hevy_holy_armor_body_recipe"
+    },
+    {
+      "name": "ObsidianedHevyHolyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianed_hevy_holy_armor_leggings_recipe"
+    },
+    {
+      "name": "ObsidianedHevyHolyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianed_hevy_holy_armor_boots_recipe"
+    },
+    {
+      "name": "ManaNecklace",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_necklace"
+    },
+    {
+      "name": "ManaBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_block"
+    },
+    {
+      "name": "ManaBelt",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_belt"
+    },
+    {
+      "name": "MagicArmor",
+      "type": "tab",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_armor"
+    },
+    {
+      "name": "ManaNecklaceRecipe",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_necklace_recipe"
+    },
+    {
+      "name": "ManaBeltRecipe",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_belt_recipe"
+    },
+    {
+      "name": "ManaBlockRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_block_recipe"
+    },
+    {
+      "name": "SoulShard",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shard"
+    },
+    {
+      "name": "ActiveSoulSand",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "active_soul_sand"
+    },
+    {
+      "name": "SoulEssention",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_essention"
+    },
+    {
+      "name": "SoulCrystal",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_crystal"
+    },
+    {
+      "name": "SoulCrystalRecipe",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_crystal_recipe"
+    },
+    {
+      "name": "SoulString",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_string"
+    },
+    {
+      "name": "SoulStringRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_string_recipe"
+    },
+    {
+      "name": "HolyBow",
+      "type": "rangeditem",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_bow"
+    },
+    {
+      "name": "HolyBowRecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_bow_recipe"
+    },
+    {
+      "name": "HolyBowUpProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_bow_up_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HolyBowUp",
+      "type": "rangeditem",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_bow_up"
+    },
+    {
+      "name": "HolyBowUpgrade",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_bow_upgrade"
+    },
+    {
+      "name": "SoulShardRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shard_recipe"
+    },
+    {
+      "name": "SoulStaffRangedItemUsed",
+      "type": "procedure",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_staff_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulStaffProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_staff_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulStaff",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_staff"
+    },
+    {
+      "name": "SoulStaffRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_staff_recipe"
+    },
+    {
+      "name": "ManaRegenerationActiveTickCondition",
+      "type": "procedure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_regeneration_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaNecklaceRightclicked",
+      "type": "procedure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_necklace_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBeltRightclicked",
+      "type": "procedure",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_belt_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaChocolatePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_chocolate_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaChocolate",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_chocolate"
+    },
+    {
+      "name": "ManaChocolateChunkPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_chocolate_chunk_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaChocolateChunk",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_chocolate_chunk"
+    },
+    {
+      "name": "ManaChocolateRecipe",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_chocolate_recipe"
+    },
+    {
+      "name": "ManaChocolateBitRecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_chocolate_bit_recipe"
+    },
+    {
+      "name": "ManaLoseProcedure",
+      "type": "procedure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_lose_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SoulEssentionObtaining",
+      "type": "achievement",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_essention_obtaining"
+    },
+    {
+      "name": "ManaChocolteObtaining",
+      "type": "achievement",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_chocolte_obtaining"
+    },
+    {
+      "name": "SoulShardObtaining",
+      "type": "achievement",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_shard_obtaining"
+    },
+    {
+      "name": "SoulCrystalObtaining",
+      "type": "achievement",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_crystal_obtaining"
+    },
+    {
+      "name": "SoulStaffObtaining",
+      "type": "achievement",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_staff_obtaining"
+    },
+    {
+      "name": "HolyBladeObtaining",
+      "type": "achievement",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_blade_obtaining"
+    },
+    {
+      "name": "AxeBladeObtaining",
+      "type": "achievement",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "axe_blade_obtaining"
+    },
+    {
+      "name": "HolyBattleAxeRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_battle_axe_recipe"
+    },
+    {
+      "name": "HolyGardObtaining",
+      "type": "achievement",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_gard_obtaining"
+    },
+    {
+      "name": "HolyStringObtaining",
+      "type": "achievement",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_string_obtaining"
+    },
+    {
+      "name": "IceBladeObtaining",
+      "type": "achievement",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_blade_obtaining"
+    },
+    {
+      "name": "FireGardObtaining",
+      "type": "achievement",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_gard_obtaining"
+    },
+    {
+      "name": "StoneAxeBladeObtaining",
+      "type": "achievement",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_axe_blade_obtaining"
+    },
+    {
+      "name": "ObsidianPlateObtaining",
+      "type": "achievement",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_plate_obtaining"
+    },
+    {
+      "name": "SoulStringObtaining",
+      "type": "achievement",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_string_obtaining"
+    },
+    {
+      "name": "ExcaliburObtaining",
+      "type": "achievement",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur_obtaining"
+    },
+    {
+      "name": "HolyHammerObtaining",
+      "type": "achievement",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_hammer_obtaining"
+    },
+    {
+      "name": "HolyBattleAxeObtaining",
+      "type": "achievement",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_battle_axe_obtaining"
+    },
+    {
+      "name": "HolyKatanaObtaining",
+      "type": "achievement",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_katana_obtaining"
+    },
+    {
+      "name": "GungnirObtaining",
+      "type": "achievement",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gungnir_obtaining"
+    },
+    {
+      "name": "HolyBowObtaining",
+      "type": "achievement",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_bow_obtaining"
+    },
+    {
+      "name": "FireExcaliburObtaining",
+      "type": "achievement",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_excalibur_obtaining"
+    },
+    {
+      "name": "ObsidianHammerObtaining",
+      "type": "achievement",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_hammer_obtaining"
+    },
+    {
+      "name": "StoneBattleAxeObtaining",
+      "type": "achievement",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_battle_axe_obtaining"
+    },
+    {
+      "name": "IceKatanaObtaining",
+      "type": "achievement",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_katana_obtaining"
+    },
+    {
+      "name": "SoulBowObtaining",
+      "type": "achievement",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_bow_obtaining"
+    },
+    {
+      "name": "HolyNecklaceObtaining",
+      "type": "achievement",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_necklace_obtaining"
+    },
+    {
+      "name": "HolyBeltObtaining",
+      "type": "achievement",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_belt_obtaining"
+    },
+    {
+      "name": "MaxwellOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxwell_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HollowIgniterRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hollow_igniter_recipe"
+    },
+    {
+      "name": "MagicBook",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_book"
+    },
+    {
+      "name": "WaterSplash",
+      "type": "particle",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_splash"
+    },
+    {
+      "name": "FireSplash",
+      "type": "particle",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_splash"
+    },
+    {
+      "name": "ObsidianSplash",
+      "type": "particle",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_splash"
+    },
+    {
+      "name": "SkulkSplash",
+      "type": "particle",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_splash"
+    },
+    {
+      "name": "IceSplash",
+      "type": "particle",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_splash"
+    },
+    {
+      "name": "SoulSplash",
+      "type": "particle",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_splash"
+    },
+    {
+      "name": "StoneSplash",
+      "type": "particle",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_splash"
+    },
+    {
+      "name": "WaterStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_staff_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_staff_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_staff_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IceStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_staff_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianStaffWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_staff_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HolyBowUpWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_bow_up_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireBook",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_book"
+    },
+    {
+      "name": "WaterBook",
+      "type": "rangeditem",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_book"
+    },
+    {
+      "name": "StoneBookRightclicked",
+      "type": "procedure",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_book_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneBookItemInHandTick",
+      "type": "procedure",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_book_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StoneBook",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_book"
+    },
+    {
+      "name": "ObsidianBookRightclicked",
+      "type": "procedure",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_book_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianBookItemInHandTick",
+      "type": "procedure",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_book_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ObsidianBook",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_book"
+    },
+    {
+      "name": "MagicBookRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_book_recipe"
+    },
+    {
+      "name": "WaterBookRecipe",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_book_recipe"
+    },
+    {
+      "name": "FireBookRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_book_recipe"
+    },
+    {
+      "name": "StoneBookRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_book_recipe"
+    },
+    {
+      "name": "SkulkEssention",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_essention"
+    },
+    {
+      "name": "SkulkCrystalItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_crystal_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkulkCrystal",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_crystal"
+    },
+    {
+      "name": "ObsidianBookRecipe",
+      "type": "recipe",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_book_recipe"
+    },
+    {
+      "name": "IceBook",
+      "type": "rangeditem",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_book"
+    },
+    {
+      "name": "SoulBook",
+      "type": "rangeditem",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_book"
+    },
+    {
+      "name": "SkulkBookWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_book_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkulkBookProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_book_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkulkBook",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_book"
+    },
+    {
+      "name": "ManaBookRightclicked",
+      "type": "procedure",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_book_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaBook",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_book"
+    },
+    {
+      "name": "SkulkCrystalRecipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_crystal_recipe"
+    },
+    {
+      "name": "SkulkEssentionRecipe",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_essention_recipe"
+    },
+    {
+      "name": "SkulkBookRecipe",
+      "type": "recipe",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_book_recipe"
+    },
+    {
+      "name": "IceBookRecipe",
+      "type": "recipe",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_book_recipe"
+    },
+    {
+      "name": "SoulBookRecipe",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_book_recipe"
+    },
+    {
+      "name": "ManaBookRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_book_recipe"
+    },
+    {
+      "name": "SkulkCatalystObtaining",
+      "type": "achievement",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_catalyst_obtaining"
+    },
+    {
+      "name": "SkulkSoulObaining",
+      "type": "achievement",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_soul_obaining"
+    },
+    {
+      "name": "SkulkCrystalObtaining",
+      "type": "achievement",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_crystal_obtaining"
+    },
+    {
+      "name": "SkulkBookObtaining",
+      "type": "achievement",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skulk_book_obtaining"
+    },
+    {
+      "name": "SoulBookObtaining",
+      "type": "achievement",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_book_obtaining"
+    },
+    {
+      "name": "IceBookObtaining",
+      "type": "achievement",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_book_obtaining"
+    },
+    {
+      "name": "FireBookObtaining",
+      "type": "achievement",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_book_obtaining"
+    },
+    {
+      "name": "WaterBookObtaining",
+      "type": "achievement",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_book_obtaining"
+    },
+    {
+      "name": "StoneBookObtaining",
+      "type": "achievement",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_book_obtaining"
+    },
+    {
+      "name": "ObsidianBookObtaining",
+      "type": "achievement",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_book_obtaining"
+    },
+    {
+      "name": "MagicBookObtaining",
+      "type": "achievement",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_book_obtaining"
+    },
+    {
+      "name": "ManaBookObtaining",
+      "type": "achievement",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_book_obtaining"
+    },
+    {
+      "name": "EnderiteCrystal",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_crystal"
+    },
+    {
+      "name": "EnderiteOre",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore"
+    },
+    {
+      "name": "EnderitePickaxe",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pickaxe"
+    },
+    {
+      "name": "EnderiteAxe",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe"
+    },
+    {
+      "name": "EnderiteShovel",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel"
+    },
+    {
+      "name": "EnderiteSword",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword"
+    },
+    {
+      "name": "EnderiteHoe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe"
+    },
+    {
+      "name": "EnderitePickRecipe",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_pick_recipe"
+    },
+    {
+      "name": "EnderiteSwordRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_sword_recipe"
+    },
+    {
+      "name": "EnderiteShovelRecipe",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_shovel_recipe"
+    },
+    {
+      "name": "EnderiteAxeRecipe",
+      "type": "recipe",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_axe_recipe"
+    },
+    {
+      "name": "EnderiteHoeRecipe",
+      "type": "recipe",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_hoe_recipe"
+    },
+    {
+      "name": "EnderiteArmor",
+      "type": "armor",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EnderiteHelmetRecipe",
+      "type": "recipe",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_helmet_recipe"
+    },
+    {
+      "name": "EnderiteChestplateRecipe",
+      "type": "recipe",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_chestplate_recipe"
+    },
+    {
+      "name": "EnderiteLegginsRecipe",
+      "type": "recipe",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_leggins_recipe"
+    },
+    {
+      "name": "EnderiteBootsRecipe",
+      "type": "recipe",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_boots_recipe"
+    },
+    {
+      "name": "ManaLog",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_log"
+    },
+    {
+      "name": "ManaWood",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_wood"
+    },
+    {
+      "name": "ManaPlanks",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_planks"
+    },
+    {
+      "name": "FireLogEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_log_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireLog",
+      "type": "block",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_log"
+    },
+    {
+      "name": "FireWood",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wood"
+    },
+    {
+      "name": "FirePlanks",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_planks"
+    },
+    {
+      "name": "RuneLog",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_log"
+    },
+    {
+      "name": "RuneWood",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_wood"
+    },
+    {
+      "name": "RunePlanks",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_planks"
+    },
+    {
+      "name": "CorruptLog",
+      "type": "block",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_log"
+    },
+    {
+      "name": "CorruptWood",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_wood"
+    },
+    {
+      "name": "CorruptPlanks",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_planks"
+    },
+    {
+      "name": "ManaPlanksSlab",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_planks_slab"
+    },
+    {
+      "name": "ManaStairs",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_stairs"
+    },
+    {
+      "name": "FireSlab",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_slab"
+    },
+    {
+      "name": "FireStairs",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_stairs"
+    },
+    {
+      "name": "RuneSlab",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_slab"
+    },
+    {
+      "name": "RuneStairs",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stairs"
+    },
+    {
+      "name": "CorruptSlab",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_slab"
+    },
+    {
+      "name": "CorruptStairs",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_stairs"
+    },
+    {
+      "name": "ManaLeaves",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_leaves"
+    },
+    {
+      "name": "FireLeaves",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_leaves"
+    },
+    {
+      "name": "RuneLeaves",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_leaves"
+    },
+    {
+      "name": "CorruptLeaves",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_leaves"
+    },
+    {
+      "name": "FireWoodTag",
+      "type": "tag",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wood_tag"
+    },
+    {
+      "name": "ManaWoodTag",
+      "type": "tag",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_wood_tag"
+    },
+    {
+      "name": "CorruptWoodTag",
+      "type": "tag",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_wood_tag"
+    },
+    {
+      "name": "RuneWoodTag",
+      "type": "tag",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_wood_tag"
+    },
+    {
+      "name": "MagicPlanksTag",
+      "type": "tag",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_planks_tag"
+    },
+    {
+      "name": "ManaLogsTag",
+      "type": "tag",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_logs_tag"
+    },
+    {
+      "name": "FireLogsTag",
+      "type": "tag",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_logs_tag"
+    },
+    {
+      "name": "RuneLogsTag",
+      "type": "tag",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_logs_tag"
+    },
+    {
+      "name": "CorruptLogsTag",
+      "type": "tag",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_logs_tag"
+    },
+    {
+      "name": "ManaPlanksRecipe",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_planks_recipe"
+    },
+    {
+      "name": "ManaPlanksRecipe2",
+      "type": "recipe",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_planks_recipe_2"
+    },
+    {
+      "name": "FirePlanksRecipe",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_planks_recipe"
+    },
+    {
+      "name": "FirePlanksRecipe2",
+      "type": "recipe",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_planks_recipe_2"
+    },
+    {
+      "name": "RunePlanksRecipe",
+      "type": "recipe",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_planks_recipe"
+    },
+    {
+      "name": "RunePlanksRecipe2",
+      "type": "recipe",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_planks_recipe_2"
+    },
+    {
+      "name": "CorruptPlanksRecipe",
+      "type": "recipe",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_planks_recipe"
+    },
+    {
+      "name": "CorruptPlanksRecipe2",
+      "type": "recipe",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_planks_recipe_2"
+    },
+    {
+      "name": "ManaSlabRecipe",
+      "type": "recipe",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_slab_recipe"
+    },
+    {
+      "name": "ManaStairsRecipe",
+      "type": "recipe",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_stairs_recipe"
+    },
+    {
+      "name": "FireSlabRecipe",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_slab_recipe"
+    },
+    {
+      "name": "FireStairsRecipe",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_stairs_recipe"
+    },
+    {
+      "name": "RuneSlabRecipe",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_slab_recipe"
+    },
+    {
+      "name": "RuneStairsRecipe",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stairs_recipe"
+    },
+    {
+      "name": "CorruptSlabRecipe",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_slab_recipe"
+    },
+    {
+      "name": "CorruptStairsRecipe",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_stairs_recipe"
+    },
+    {
+      "name": "ManaWoodRecipe",
+      "type": "recipe",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_wood_recipe"
+    },
+    {
+      "name": "FireWoodRecipe",
+      "type": "recipe",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_wood_recipe"
+    },
+    {
+      "name": "RuneWoodRecipe",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_wood_recipe"
+    },
+    {
+      "name": "CorruptWoodRecipe",
+      "type": "recipe",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_wood_recipe"
+    },
+    {
+      "name": "HolyWaterTrade",
+      "type": "villagertrade",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_trade"
+    },
+    {
+      "name": "MagicForest",
+      "type": "biome",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_forest"
+    },
+    {
+      "name": "RuneForest",
+      "type": "biome",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_forest"
+    },
+    {
+      "name": "FireForest",
+      "type": "biome",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_forest"
+    },
+    {
+      "name": "CorruptedForest",
+      "type": "biome",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_forest"
+    },
+    {
+      "name": "CorruptedWastelands",
+      "type": "biome",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_wastelands"
+    },
+    {
+      "name": "RuneStone",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone"
+    },
+    {
+      "name": "RuneWorld",
+      "type": "dimension",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_world",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "RuneWorldBeaconOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_world_beacon_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RuneWorldBeacon",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_world_beacon"
+    },
+    {
+      "name": "RuneStoneBrick",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_brick"
+    },
+    {
+      "name": "RuneCobblestone",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobblestone"
+    },
+    {
+      "name": "CuttedRuneStone",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cutted_rune_stone"
+    },
+    {
+      "name": "RuneBrickSlab",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_slab"
+    },
+    {
+      "name": "RuneBrickStairs",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_stairs"
+    },
+    {
+      "name": "RuneStoneSlab",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_slab"
+    },
+    {
+      "name": "RuneStoneStairs",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_stairs"
+    },
+    {
+      "name": "RuneCobbleSlab",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_slab"
+    },
+    {
+      "name": "RuneCobbleStairs",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_stairs"
+    },
+    {
+      "name": "RuneCobbleWall",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_wall"
+    },
+    {
+      "name": "RuneBrickWall",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_wall"
+    },
+    {
+      "name": "RuneTrapdoor",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_trapdoor"
+    },
+    {
+      "name": "ManaTrapdoor",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_trapdoor"
+    },
+    {
+      "name": "CorruptTrapdoor",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_trapdoor"
+    },
+    {
+      "name": "FireTrapdoor",
+      "type": "block",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_trapdoor"
+    },
+    {
+      "name": "FireDoor",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_door"
+    },
+    {
+      "name": "RuneDoor",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_door"
+    },
+    {
+      "name": "CorruptDoor",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_door"
+    },
+    {
+      "name": "ManaDoor",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_door"
+    },
+    {
+      "name": "CorruptFenceGate",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fence_gate"
+    },
+    {
+      "name": "FireFenceGate",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_fence_gate"
+    },
+    {
+      "name": "ManaFenceGate",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_fence_gate"
+    },
+    {
+      "name": "RuneFenceGate",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_fence_gate"
+    },
+    {
+      "name": "RuneLapisLazuliOre",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_lapis_lazuli_ore"
+    },
+    {
+      "name": "LapisOreBroke",
+      "type": "loottable",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_ore_broke"
+    },
+    {
+      "name": "RuneRedstoneOre",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_redstone_ore"
+    },
+    {
+      "name": "RuneRedstoneOreBreak",
+      "type": "loottable",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_redstone_ore_break"
+    },
+    {
+      "name": "RuneIronOre",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_iron_ore"
+    },
+    {
+      "name": "RuneIronOreBreak",
+      "type": "loottable",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_iron_ore_break"
+    },
+    {
+      "name": "RuneGoldOre",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_gold_ore"
+    },
+    {
+      "name": "RuneGoldOreBreak",
+      "type": "loottable",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_gold_ore_break"
+    },
+    {
+      "name": "RuneDiamondOre",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_diamond_ore"
+    },
+    {
+      "name": "RuneDiamondOreBreak",
+      "type": "loottable",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_diamond_ore_break"
+    },
+    {
+      "name": "RuneEmeraldOre",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_emerald_ore"
+    },
+    {
+      "name": "RuneEmeraldBlokBreak",
+      "type": "loottable",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_emerald_blok_break"
+    },
+    {
+      "name": "RuneCopperOre",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_copper_ore"
+    },
+    {
+      "name": "RuneCopperOreBreak",
+      "type": "loottable",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_copper_ore_break"
+    },
+    {
+      "name": "RawHollowOre",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_hollow_ore"
+    },
+    {
+      "name": "RuneHollowOre",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_hollow_ore"
+    },
+    {
+      "name": "RuneHollowOreBreak",
+      "type": "loottable",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_hollow_ore_break"
+    },
+    {
+      "name": "RuneLapisSmelt",
+      "type": "recipe",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_lapis_smelt"
+    },
+    {
+      "name": "RuneLapisBlast",
+      "type": "recipe",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_lapis_blast"
+    },
+    {
+      "name": "RuneRedstoneSmelt",
+      "type": "recipe",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_redstone_smelt"
+    },
+    {
+      "name": "RuneRedstoneBlast",
+      "type": "recipe",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_redstone_blast"
+    },
+    {
+      "name": "RuneIronSmelt",
+      "type": "recipe",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_iron_smelt"
+    },
+    {
+      "name": "RuneIronBlast",
+      "type": "recipe",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_iron_blast"
+    },
+    {
+      "name": "RuneGoldSmelt",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_gold_smelt"
+    },
+    {
+      "name": "RuneGoldBlast",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_gold_blast"
+    },
+    {
+      "name": "RuneDiamondSmelt",
+      "type": "recipe",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_diamond_smelt"
+    },
+    {
+      "name": "RuneDiamondBlast",
+      "type": "recipe",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_diamond_blast"
+    },
+    {
+      "name": "RuneEmeraldSmelt",
+      "type": "recipe",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_emerald_smelt"
+    },
+    {
+      "name": "RuneEmeraldBlast",
+      "type": "recipe",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_emerald_blast"
+    },
+    {
+      "name": "RuneCopperSmelt",
+      "type": "recipe",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_copper_smelt"
+    },
+    {
+      "name": "RuneCopperBlast",
+      "type": "recipe",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_copper_blast"
+    },
+    {
+      "name": "RuneHollowOreBlast",
+      "type": "recipe",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_hollow_ore_blast"
+    },
+    {
+      "name": "RawHollowBlast",
+      "type": "recipe",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_hollow_blast"
+    },
+    {
+      "name": "IncompleteRuneWorldBeacon",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incomplete_rune_world_beacon"
+    },
+    {
+      "name": "RuneBeaconCore",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_beacon_core"
+    },
+    {
+      "name": "RuneBeaconCoreRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_beacon_core_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonumentChestLootTable",
+      "type": "loottable",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monument_chest_loot_table"
+    },
+    {
+      "name": "RuneCobbleSmelt",
+      "type": "recipe",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_smelt"
+    },
+    {
+      "name": "RuneCobbleBlast",
+      "type": "recipe",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_blast"
+    },
+    {
+      "name": "RuneBrickRecipe",
+      "type": "recipe",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_recipe"
+    },
+    {
+      "name": "RuneCobbleSlabRecipe",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_slab_recipe"
+    },
+    {
+      "name": "RuneStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_slab_recipe"
+    },
+    {
+      "name": "RuneBricksSlabRecipe",
+      "type": "recipe",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_bricks_slab_recipe"
+    },
+    {
+      "name": "RuneCobbleStairsRecipe",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_stairs_recipe"
+    },
+    {
+      "name": "RuneStoneStairsRecipe",
+      "type": "recipe",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_stairs_recipe"
+    },
+    {
+      "name": "RuneBricksStairsRecipe",
+      "type": "recipe",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_bricks_stairs_recipe"
+    },
+    {
+      "name": "RuneCobbleWallRecipe",
+      "type": "recipe",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_wall_recipe"
+    },
+    {
+      "name": "RuneBricksWallRecipe",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_bricks_wall_recipe"
+    },
+    {
+      "name": "RuneBricksCut",
+      "type": "recipe",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_bricks_cut"
+    },
+    {
+      "name": "RuneBrickSlabCut",
+      "type": "recipe",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_slab_cut"
+    },
+    {
+      "name": "RuneBrickStairsCut",
+      "type": "recipe",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_stairs_cut"
+    },
+    {
+      "name": "RuneBricksWallCut",
+      "type": "recipe",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_bricks_wall_cut"
+    },
+    {
+      "name": "RuneStoneSlabCut",
+      "type": "recipe",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_slab_cut"
+    },
+    {
+      "name": "RuneStoneStairsCut",
+      "type": "recipe",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_stairs_cut"
+    },
+    {
+      "name": "RuneStoneCuttedRecipe",
+      "type": "recipe",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_stone_cutted_recipe"
+    },
+    {
+      "name": "RuneCobbleSlabCut",
+      "type": "recipe",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_slab_cut"
+    },
+    {
+      "name": "RuneCobbleStairsCut",
+      "type": "recipe",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_stairs_cut"
+    },
+    {
+      "name": "RuneCobbleWallCut",
+      "type": "recipe",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_cobble_wall_cut"
+    },
+    {
+      "name": "RuneBrickSlabCut1",
+      "type": "recipe",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_slab_cut_1"
+    },
+    {
+      "name": "RuneBrickStairsCut1",
+      "type": "recipe",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_brick_stairs_cut_1"
+    },
+    {
+      "name": "RuneBricksWallCut1",
+      "type": "recipe",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_bricks_wall_cut_1"
+    },
+    {
+      "name": "RuneWorldBeaconMonument",
+      "type": "structure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_world_beacon_monument"
+    },
+    {
+      "name": "FlyingIsland",
+      "type": "structure",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_island"
+    },
+    {
+      "name": "FlyingIslandMana",
+      "type": "structure",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_island_mana"
+    },
+    {
+      "name": "FlyingIslandFire",
+      "type": "structure",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_island_fire"
+    },
+    {
+      "name": "FlyingIslandRune",
+      "type": "structure",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_island_rune"
+    },
+    {
+      "name": "FlyingIslandCorrupt",
+      "type": "structure",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flying_island_corrupt"
+    },
+    {
+      "name": "ManaFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_fence_gate_recipe"
+    },
+    {
+      "name": "RuneFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 460,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_fence_gate_recipe"
+    },
+    {
+      "name": "CorruptFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 461,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fence_gate_recipe"
+    },
+    {
+      "name": "FireFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 462,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_fence_gate_recipe"
+    },
+    {
+      "name": "ManaDoorRecipe",
+      "type": "recipe",
+      "sortid": 463,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_door_recipe"
+    },
+    {
+      "name": "RuneDoorRecipe",
+      "type": "recipe",
+      "sortid": 464,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_door_recipe"
+    },
+    {
+      "name": "FireDoorRecipe",
+      "type": "recipe",
+      "sortid": 465,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_door_recipe"
+    },
+    {
+      "name": "CorruptDoorRecipe",
+      "type": "recipe",
+      "sortid": 466,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_door_recipe"
+    },
+    {
+      "name": "ManaTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 467,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_trapdoor_recipe"
+    },
+    {
+      "name": "RuneTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_trapdoor_recipe"
+    },
+    {
+      "name": "FireTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_trapdoor_recipe"
+    },
+    {
+      "name": "CorruptTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_trapdoor_recipe"
+    },
+    {
+      "name": "EnderiteOreBlast",
+      "type": "recipe",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderite_ore_blast"
+    },
+    {
+      "name": "RuneWorldBeaconRecipe",
+      "type": "recipe",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rune_world_beacon_recipe"
+    },
+    {
+      "name": "BeaconActivation",
+      "type": "achievement",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_activation"
+    },
+    {
+      "name": "ManaCombinerBlockAdded",
+      "type": "procedure",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_combiner_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ManaCombiner",
+      "type": "animatedblock",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mana_combiner"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "mana",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "50.0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "maxwell_break",
+      "files": [
+        "krik-koshki-kotoroy-nastupili-na-hvost"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "maxwell_placed",
+      "files": [
+        "myaukane-domashney-koshki-37030"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "the_only_thing_i_know_for_real",
+      "files": [
+        "the_only_thing_i_kniw_for_real"
+      ],
+      "category": "music",
+      "subtitle": "Best music"
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "advancements.holy_katana_obtaining.descr": "Быстрорежущий",
+      "block.magic_staff_mod.water_ore": "Руда водной эссенции",
+      "advancements.fire_book_obtaining.descr": "Это гроячий кусок по... пользовательского искувства",
+      "item.magic_staff_mod.holy_holy_casting_hammer": "Святая киянка",
+      "block.ma.rune_wood": "Рунное бревно",
+      "advancements.skulk_crystal_obtaining.descr": "Там будто космос",
+      "block.magic_staff_mod.active_soul_sand": "Активный песок душ",
+      "advancements.holy_bow_obtaining.descr": "Стреляет только спектральными",
+      "advancements.water_staff_obtaining.title": "Водный посох",
+      "item.ma.rune_world": "Rune World Portal Igniter",
+      "item.magic_staff_mod.stone_staff": "Каменный посох",
+      "item.ma.stone_staff": "Каменный посох",
+      "advancements.water_crystal_obtaining.title": "Водный кристал",
+      "advancements.brocken_mana_crystal_obtaining.descr": "Твои магическкие приключения начинаються",
+      "item.ma.obsidianed_hevy_holy_armor_chestplate": "Обсидиановый тяжелый святой нагрудник",
+      "item.ma.holy_water": "Святая вода",
+      "advancements.stone_crystal_obtaining.descr": "Каменный... кристал...",
+      "item.ma.soul_string": "Святая тетива",
+      "item.magic_staff_mod.stone_crystal": "Каменный кристал",
+      "item.magic_staff_mod.ice_katana": "Ледяная катана",
+      "item.ma.heavy_holy_armor_boots": "Тяжелые святые ботинки",
+      "item.ma.obsidian_staff": "Обсидиановый посох",
+      "advancements.soul_crystal_obtaining.descr": "Наконецто. Хороший кристал",
+      "block.ma.rune_emerald_ore": "Рунная изумрудная руда",
+      "advancements.water_book_obtaining.title": "Книга воды",
+      "item.ma.water_ingot": "Слиток воды",
+      "advancements.mana_book_obtaining.descr": "МНОГО маны",
+      "block.ma.rune_leaves": "Рунная листва",
+      "block.ma.rune_cobble_wall": "Рунная булыжниковая стена",
+      "advancements.holy_ingot_obtaining.title": "Слиток бога",
+      "item.ma.heavy_holy_armor_chestplate": "Тяжелый святой нагрудник",
+      "block.ma.rune_fence_gate": "Рунная калитка",
+      "block.ma.rune_brick_wall": "Рунная кирпичная стена",
+      "item.magic_staff_mod.brocken_mana_crystal": "Сломаный кристал маны",
+      "block.ma.mana_door": "Мана дверь",
+      "item.ma.enderite_armor_leggings": "Эндеритовые поножи",
+      "block.ma.mana_leaves": "Листва маны",
+      "advancements.holy_gard_obtaining.descr": "Выглядит круто",
+      "item.magic_staff_mod.true_excalibur": "Истинный Экскалибур",
+      "item.magic_staff_mod.holy_nugget": "Святой самородок",
+      "block.ma.corrupt_wood": "Искаженное дерево",
+      "item.magic_staff_mod.soul_string": "Тетива душ",
+      "item.ma.holy_blade": "Святое лезвие",
+      "advancements.fire_crystal_obtaining.title": "Огненый кристал",
+      "item.magic_staff_mod.holy_axe": "Святой топор",
+      "block.ma.corrupt_trapdoor": "Искаженный люк",
+      "block.ma.stone_mana_ore": "Руда маны",
+      "biome.ma.corrupted_wastelands": "Искаженная пустошь",
+      "item.ma.holy_bow_up": "Лук душ",
+      "advancements.excalibur_obtaining.title": "Экскалибур",
+      "item.ma.enderite_sword": "Эндеритовый меч",
+      "advancements.axe_blade_obtaining.title": "Лезвие топора",
+      "item.ma.enderite_crystal": "Эндеритовый кристал",
+      "item.magic_staff_mod.heavy_holy_armor_chestplate": "Тяжелый святой нагрудник",
+      "item.magic_staff_mod.soul_essention": "Эссенция души",
+      "biome.ma.magic_forest": "Магический лес",
+      "biome.ma.corrupted_forest": "Искаженный лес",
+      "advancements.mana_crystal_obtaining.title": "Оно светиться",
+      "item.ma.holy_pickaxe": "Святая кирка",
+      "advancements.holy_necklace_obtaining.title": "Святое ожерелье",
+      "advancements.stone_book_obtaining.title": "Книга камня",
+      "block.magic_staff_mod.fire_ore": "Руда огненой эссенции",
+      "advancements.ice_staff_obtaining.title": "Ледяной посох",
+      "advancements.holy_hammer_obtaining.title": "Святой молот",
+      "block.ma.holy_steel_block": "Блок святой стали",
+      "advancements.water_ingot_obtaining.descr": "Зачем ты это сделал?",
+      "advancements.fire_gard_obtaining.descr": "Гарда покруче",
+      "item.magic_staff_mod.holy_string": "Святая тетива",
+      "block.ma.deepslate_ice_ore": "Глубинносланцевая руда ледяной эссенции",
+      "item.magic_staff_mod.holy_pickaxe": "Святая кирка",
+      "item.ma.holy_string": "Святая тетива",
+      "advancements.soul_staff_obtaining.title": "Душный посох",
+      "block.ma.fire_stairs": "Огненные ступеньки",
+      "item.magic_staff_mod.fire_crystal": "Огненый кристал",
+      "item.magic_staff_mod.obsidian_crystal": "Обсидиановый кристал",
+      "item.ma.obsidian_crystal": "Обсидиановый кристал",
+      "advancements.obsidian_plate_obtaining.descr": "Прочная",
+      "item.ma.stone_essention": "Каменная эссенция",
+      "advancements.ice_blade_obtaining.title": "Ледяное лезвие",
+      "advancements.holy_gard_obtaining.title": "Святая гарда",
+      "advancements.holy_water_obtaining.title": "Умрите зомби!",
+      "item.ma.soul_essention": "Эссенция душ",
+      "advancements.water_book_obtaining.descr": "Слишком много воды в тексте",
+      "block.ma.rune_diamond_ore": "Рунная алмазная руда",
+      "advancements.ice_crystal_obtaining.descr": "Выскальзывает как мыло",
+      "block.ma.fire_fence_gate": "Огненная калитка",
+      "item.ma.holy_plate": "Святая пластина",
+      "item.magic_staff_mod.fire_ingot": "Слиток огня",
+      "block.ma.rune_slab": "Рунный полублок",
+      "block.ma.mana_log": "Мана бревно",
+      "item.ma.holy_gard": "Святая гарда",
+      "advancements.ice_soul_obtaining.title": "Ледяная душа",
+      "item.ma.holy_hammer": "Святой молот",
+      "item.ma.enderite_axe": "Эндеритовый топор",
+      "item.magic_staff_mod.holy_axe_blade": "Святое лезвие топора",
+      "advancements.stone_crystal_obtaining.title": "Каменный кристал",
+      "block.ma.fire_ore": "Руда огненной эссенции",
+      "advancements.soul_crystal_obtaining.title": "вот это дух",
+      "itemGroup.tabmagic_resourses": "Магические ресурсы",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_chestplate": "Обсидиановый тяжелый святой нагрудник",
+      "item.ma.obsidian_plate": "Обсидиановая пластина",
+      "block.ma.rune_copper_ore": "Рунная медная руда",
+      "advancements.holy_water_obtaining.descr": "А ты веришь в бога?",
+      "advancements.skulk_crystal_obtaining.title": "Кристал скалка",
+      "item.magic_staff_mod.heavy_holy_armor_leggings": "Тяжелые святые поножи",
+      "advancements.water_staff_obtaining.descr": "Враги летят *уиииииииииииииииииииииии*",
+      "block.magic_staff_mod.stone_ore": "Руда каменной эссенции",
+      "block.ma.stone_ore": "Руда каменной эссенции",
+      "item.magic_staff_mod.obsidian_staff": "Обсидиановый посох",
+      "advancements.skulk_catalyst_obtaining.descr": "Ты убил вардена или обыскал сундук?",
+      "advancements.holy_katana_obtaining.title": "Святая катана",
+      "item.magic_staff_mod.heavy_holy_armor_helmet": "Тяжелый святой шлем",
+      "item.magic_staff_mod.water_crystal": "Водный кристал",
+      "advancements.water_crystal_obtaining.descr": "Шмяк",
+      "item.magic_staff_mod.holy_plate": "Святой лист",
+      "block.ma.stone_ice_ore": "Руда ледяной эссенции",
+      "item.magic_staff_mod.holy_hammer": "Святой молот",
+      "item.ma.holy_cast": "Святая кованая деталь",
+      "block.ma.obsidian_ore": "Руда обсидиановой эссенции",
+      "advancements.beacon_activation.title": "Новое межмировое перемещение",
+      "item.ma.concentrated_mana_crystal": "Концентрированый кристал маны",
+      "item.ma.true_excalibur": "Истинный экскалибур",
+      "block.ma.rune_cobble_slab": "Рунный каменный полублок",
+      "advancements.skulk_soul_obaining.title": "Скалк эссенция",
+      "block.ma.fire_wood": "Огненное дерево",
+      "advancements.ice_katana_obtaining.title": "Ледяная катана",
+      "item.ma.true_gungnir": "Истинный гунгнир",
+      "item.ma.soul_shard": "Осколок души",
+      "item.ma.ice_katana": "Ледяная катана",
+      "block.ma.rune_gold_ore": "Рунная золотая руда",
+      "block.ma.rune_world_beacon": "Маяк рунного мира",
+      "advancements.ice_soul_obtaining.descr": "Если ты убиваешь котиков то у тебя такаяже",
+      "item.magic_staff_mod.heavy_holy_armor_boots": "Тяжелые святые ботинки",
+      "advancements.obsidian_crystal_obtaining.title": "Обсидиановый кристал",
+      "block.magic_staff_mod.stone_ice_ore": "Руда ледяной эссенции",
+      "item.ma.ice_book": "Книга льда",
+      "advancements.water_ingot_obtaining.title": "(Не)Бесполезный слиток",
+      "advancements.soul_shard_obtaining.descr": "Оно польсирует",
+      "item.ma.enderite_armor_boots": "Эндеритовые ботинки",
+      "advancements.gungnir_obtaining.title": "Гунгнир",
+      "item.magic_staff_mod.holy_water": "Святая вода",
+      "item.magic_staff_mod.holy_hammer_obsidianed": "Обсидиановый святой молот",
+      "item.ma.obsidian_book": "Книга обсидиана",
+      "item.ma.skulk_crystal": "Скалк кристал",
+      "block.ma.corrupt_leaves": "Искаженная листва",
+      "advancements.axe_blade_obtaining.descr": "Большое лезвие",
+      "item.ma.ice_essention": "Ледяная эссенция",
+      "advancements.obsidian_book_obtaining.title": "Книга обсидиана",
+      "block.ma.fire_slab": "Огненный полублок",
+      "item.ma.mana_chocolate_chunk": "Кусочек шоколада маны",
+      "block.ma.mana_planks_slab": "Мана полублок",
+      "advancements.water_soul_obtainig.title": "Водная душа",
+      "item.magic_staff_mod.excalibur": "Экскалибур",
+      "advancements.magic_book_obtaining.descr": "Основа магии",
+      "item.magic_staff_mod.soul_staff": "Посох душ",
+      "item.magic_staff_mod.holy_katana": "Святая катана",
+      "item.ma.mana_chocolate": "Шоколад маны",
+      "item.magic_staff_mod.obsidian_essention": "Обсидиановая эссенция",
+      "item.ma.holy_nugget": "Святой самородок",
+      "block.ma.fire_leaves": "Огненная листва",
+      "item.ma.skulk_essention": "Скалк эссенция",
+      "item.ma.raw_hollow_ore": "Необработаная святая сталь",
+      "block.ma.mana_fence_gate": "Мана калитка",
+      "item.magic_staff_mod.holy_blade": "Святое лезвие",
+      "block.ma.fire_log": "Оненное бревно",
+      "block.ma.rune_stone_slab": "Рунный каменный полублок",
+      "advancements.stone_axe_blade_obtaining.title": "Каменное лезвие топора",
+      "advancements.fire_soul_obtaining.title": "Огненая душа",
+      "advancements.obsidian_staff_obtaining.descr": "Мощные эффекты",
+      "advancements.mana_chocolte_obtaining.title": "Сладкая мана",
+      "block.ma.rune_hollow_ore": "Рунная святая руда",
+      "advancements.soul_bow_obtaining.title": "Лук душ",
+      "item.magic_staff_mod.water_ingot": "Водный слиток",
+      "advancements.stone_staff_obtaining.title": "Каменный посох",
+      "item.magic_staff_mod.ice_crystal": "Ледяной кристал",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_leggings": "Обсидиановые тяжелые святые поножи",
+      "advancements.fire_staff_obtaining.title": "Огненый посох",
+      "advancements.obsidian_hammer_obtaining.descr": "БОЛЬШЕ УРОНА",
+      "item.magic_staff_mod.holy_cast": "Святая вырезка",
+      "advancements.soul_essention_obtaining.descr": "Найди эссенцию души",
+      "item.magic_staff_mod.mana_belt": "Пояс маны",
+      "advancements.holy_battle_axe_obtaining.title": "Святой боевой топор",
+      "advancements.concentrated_mana_crystal_use.descr": "Востанавливает ману",
+      "advancements.mana_book_obtaining.title": "Книга маны",
+      "advancements.stone_soul_obtaining.descr": "Он... серый",
+      "item.ma.brocken_mana_crystal": "Сломаныый кристал маны",
+      "itemGroup.tabmagic_weapons": "Магические оружия",
+      "item.ma.holy_bow": "Святой лук",
+      "subtitles.maxwell_placed": "",
+      "item.ma.holy_rod": "Святой стержень",
+      "block.ma.mana_combiner": "Mana Combiner",
+      "advancements.fire_ingot_obtaining.descr": "НЕЕЕЕЕЕЕЕЕТ! Незеритовый слиток!",
+      "block.ma.rune_stairs": "Рунные ступеньки",
+      "block.ma.corrupt_door": "Искаженная дверь",
+      "item.magic_staff_mod.mana_crystal": "Кристал маны",
+      "item.ma.mana_crystal": "Кристал маны",
+      "advancements.obsidian_soul_obtaining.descr": "Сильный посох",
+      "block.ma.rune_door": "Рунная дверь",
+      "item.magic_staff_mod.obsidian_plate": "Обсидиановая пластина",
+      "item.ma.obsidian_essention": "Обсидиановая эссенция",
+      "advancements.vte_7_obtaining.descr": "Он реактивно быстр",
+      "advancements.holy_belt_obtaining.descr": "Достаточно красивый",
+      "item.ma.fire_essention": "Огненная эссенция",
+      "item.magic_staff_mod.mana_chocolate": "Шоколад маны",
+      "item.magic_staff_mod.water_staff": "Водный посох",
+      "item.ma.mana_book": "Книга маны",
+      "block.magic_staff_mod.stone_mana_ore": "Руда маны",
+      "advancements.magic_adventures.title": "Магические приключения",
+      "item.magic_staff_mod.gungnir": "Гунгнир",
+      "advancements.skulk_book_obtaining.descr": "Ага, никакого ближнего боя или посохов",
+      "item.ma.enderite_shovel": "Эндеритовая лопата",
+      "item.magic_staff_mod.fire_staff": "Огненый посох",
+      "item.magic_staff_mod.water_essention": "Водная эссенция",
+      "block.ma.incomplete_rune_world_beacon": "Незавершенный маяк рунного мира",
+      "item.ma.ice_staff": "Ледяной посох",
+      "block.ma.corrupt_log": "Искаженное бревно",
+      "block.magic_staff_mod.mana_block": "Блок маны",
+      "advancements.stone_staff_obtaining.descr": "Воу! Камень на палке)",
+      "item.ma.holy_ingot": "Святой слиток",
+      "block.ma.corrupt_stairs": "Искаженные ступеньки",
+      "block.ma.rune_redstone_ore": "Рунная редстоун руда",
+      "advancements.obsidian_plate_obtaining.title": "Обсидиановый лист",
+      "item.ma.water_staff": "Водный посох",
+      "block.ma.rune_brick_stairs": "Рунны кирпичные ступеньки",
+      "advancements.soul_book_obtaining.title": "Книга душ",
+      "advancements.fire_soul_obtaining.descr": "ГОРЯЧО!",
+      "advancements.holy_blade_obtaining.descr": "Острый",
+      "block.ma.corrupt_fence_gate": "Искаженная калитка",
+      "item.ma.mana_necklace": "Ожерелье маны",
+      "advancements.soul_string_obtaining.descr": "*Трынь* от души",
+      "biome.ma.fire_forest": "Огненный лес",
+      "block.ma.water_ore": "Руда водной эссенции",
+      "item.ma.mana_belt": "Пояс маны",
+      "item.ma.soul_crystal": "Кристал душ",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_boots": "Обсидиановые тяжелые ботинки",
+      "block.ma.mana_wood": "Мана дерево",
+      "block.ma.mana_stairs": "Мана ступеньки",
+      "item.magic_staff_mod.soul_crystal": "Кристал душ",
+      "advancements.holy_necklace_obtaining.descr": "Красивый",
+      "advancements.holy_string_obtaining.title": "Святая тетива",
+      "block.magic_staff_mod.deepslate_mana_ore": "Глубинносланцевая руда маны",
+      "block.ma.rune_stone_brick": "Рунные каменные кирпичи",
+      "advancements.stone_battle_axe_obtaining.title": "Каменный боевой топор",
+      "advancements.ice_book_obtaining.descr": "Завораживающая книга",
+      "item.magic_staff_mod.ice_essention": "Ледяная эссенция",
+      "advancements.soul_staff_obtaining.descr": "Забери их души",
+      "advancements.fire_gard_obtaining.title": "Огненая гарда",
+      "item.ma.enderite_armor_chestplate": "Эндеритовый нагрудник",
+      "block.ma.active_soul_sand": "Активный песок душ",
+      "item.ma.excalibur": "Екскалибур",
+      "item.ma.magic_book": "Книга магии",
+      "advancements.stone_battle_axe_obtaining.descr": "Если честно не из камня",
+      "advancements.ice_book_obtaining.title": "Книга льда",
+      "item.ma.uncomplite_holy_blade": "Незавершенное святое лезвие ",
+      "block.ma.rune_log": "Рунное бревно",
+      "advancements.skulk_catalyst_obtaining.title": "Приключения в скалке",
+      "advancements.ice_katana_obtaining.descr": "Будет резать как холодный нож по маслу",
+      "item.ma.vt_7": "ВЧ Мурасама",
+      "item.magic_staff_mod.fire_gard": "Огненная гарда",
+      "item.magic_staff_mod.mana_necklace": "Ожерелье маны",
+      "subtitles.the_only_thing_i_know_for_real": "Лучшая музыка",
+      "item.ma.enderite_armor_helmet": "Эндеритовый шлем",
+      "advancements.soul_string_obtaining.title": "Тетива душ",
+      "block.ma.enderite_ore": "Эндеритовая руда",
+      "item.magic_staff_mod.holy_bow": "Святой лук",
+      "subtitles.maxwell_break": "",
+      "item.magic_staff_mod.holy_rod": "Святой стержень",
+      "advancements.fire_excalibur_obtaining.descr": "Тоже давно задумывал",
+      "item.magic_staff_mod.holy_ingot": "Святая сталь",
+      "advancements.soul_shard_obtaining.title": "Осколок души",
+      "item.ma.holy_axe_blade": "Святое лезвие топора",
+      "item.magic_staff_mod.ice_staff": "Ледяной посох",
+      "item.ma.fire_staff": "Огненный посох",
+      "item.ma.water_essention": "Водная эссенция",
+      "item.ma.enderite_pickaxe": "Эндеритовая кирка",
+      "block.ma.rune_cobblestone": "Рунный булыжник",
+      "advancements.obsidian_hammer_obtaining.title": "Обсидиановый молот",
+      "block.ma.corrupt_slab": "Искаженный полублок",
+      "item.magic_staff_mod.fire_essention": "Огненная эссенция",
+      "block.ma.cutted_rune_stone": "Резной рунный камень",
+      "item.ma.holy_axe": "Святой топор",
+      "advancements.skulk_book_obtaining.title": "Книга скалка",
+      "advancements.vte_7_obtaining.title": "ВОТ-ЖЕ ЧЕРТ ЕТО МУРАСАМА!",
+      "item.magic_staff_mod.uncomplite_holy_blade": "Незавершенное святое лезвие",
+      "advancements.holy_bow_obtaining.title": "Святой лук",
+      "item.ma.enderite_hoe": "Эндеритовая мотыга",
+      "advancements.concentrated_mana_crystal_use.title": "Методы регенерации маны",
+      "advancements.obsidian_soul_obtaining.title": "Обсидиановая душа",
+      "advancements.fire_ingot_obtaining.title": "Слиток огня",
+      "advancements.holy_battle_axe_obtaining.descr": "Большой режик",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_helmet": "Обсидиановый тяжелый святой шлем",
+      "advancements.stone_axe_blade_obtaining.descr": "Каменненький",
+      "advancements.holy_hammer_obtaining.descr": "*бонк*",
+      "block.ma.deepslate_mana_ore": "Глубинносланцевая руда маны",
+      "item.ma.stone_axe_blade": "Окаменевшее святое лезвие топора",
+      "item.ma.fire_crystal": "Огненный кристал",
+      "block.ma.rune_planks": "Рунные доски",
+      "advancements.brocken_mana_crystal_obtaining.title": "Оно сломано",
+      "advancements.ice_staff_obtaining.descr": "Враги становятся медленными",
+      "advancements.holy_belt_obtaining.title": "Святой пояс",
+      "item.ma.skulk_book": "Книга скалка",
+      "advancements.holy_ingot_obtaining.descr": "Оно светится тоже",
+      "itemGroup.tabmagic_melee_weapons": "Магические оружия ближнего боя",
+      "block.magic_staff_mod.deepslate_ice_ore": "Глубинносланцевая руда ледяной эссенции",
+      "advancements.ice_crystal_obtaining.title": "Ледяной кристал",
+      "item.ma.fire_gard": "Огненная гарда",
+      "item.magic_staff_mod.true_gungnir": "Истинный Гунгнир",
+      "advancements.ice_blade_obtaining.descr": "Скользко-острый",
+      "item.ma.water_book": "Книга воды",
+      "block.ma.rune_iron_ore": "Рунная железная руда",
+      "item.magic_staff_mod.mana_chocolate_chunk": "Кусочек шоколада маны",
+      "item.ma.fire_ingot": "Огненный слиток",
+      "item.ma.stone_book": "Книга камня",
+      "item.magic_staff_mod.stone_essention": "Каменная эссенция",
+      "itemGroup.tabmagic_armor": "Магическая броня",
+      "advancements.excalibur_obtaining.descr": "Меч который я задумывал еще давно",
+      "block.ma.rune_lapis_lazuli_ore": "Рунная лазуритовая руда",
+      "advancements.magic_book_obtaining.title": "Книга магии",
+      "advancements.soul_bow_obtaining.descr": "Отстрели им душу",
+      "biome.ma.rune_forest": "Рунный лес",
+      "advancements.fire_excalibur_obtaining.title": "Огненный Экскалибур",
+      "item.magic_staff_mod.ice_blade": "Ледяное лезвие",
+      "block.ma.rune_brick_slab": "Рунный кирпичный полублок",
+      "item.ma.holy_holy_casting_hammer": "Святая киянка",
+      "advancements.stone_soul_obtaining.title": "Каменная душа",
+      "advancements.mana_chocolte_obtaining.descr": "Вкусняшка",
+      "block.ma.mana_planks": "Мана доски",
+      "item.ma.heavy_holy_armor_helmet": "Тяжелый святой шлем",
+      "item.magic_staff_mod.holy_gard": "Святая гарда",
+      "block.ma.fire_trapdoor": "Огненный люк",
+      "item.ma.soul_staff": "Посох душ",
+      "item.magic_staff_mod.stone_axe_blade": "Каменное лезвие топора",
+      "item.magic_staff_mod.holy_bow_up": "Лук душ",
+      "block.ma.corrupt_planks": "Искаженные доски",
+      "block.ma.fire_door": "Огненные доски",
+      "advancements.soul_essention_obtaining.title": "Тот кто смог",
+      "advancements.stone_book_obtaining.descr": "Я не придумал шутку",
+      "item.ma.obsidianed_hevy_holy_armor_helmet": "Обсидиановый тяжелый святой шлем",
+      "advancements.fire_staff_obtaining.descr": "\"крутой\" посох",
+      "advancements.mana_crystal_obtaining.descr": "В нем все-еще нет мощи",
+      "item.magic_staff_mod.soul_shard": "Осколок души",
+      "block.ma.rune_stone_stairs": "Рунные каменные ступеньки",
+      "item.ma.heavy_holy_armor_leggings": "Тяжелые святые поножи",
+      "item.ma.fire_book": "Огненная книга",
+      "item.magic_staff_mod.concentrated_mana_crystal": "Кристал концентрированой маны",
+      "block.ma.fire_planks": "Огненные доски",
+      "item.ma.holy_katana": "Святая катана",
+      "item.ma.obsidianed_hevy_holy_armor_boots": "Обсидиановые тяжелые святые ботинки",
+      "item.ma.soul_book": "Книга душ",
+      "block.ma.rune_cobble_stairs": "Рунные булыжниковые ступеньки",
+      "item.magic_staff_mod.holy_battle_axe": "Святой боевой топор",
+      "block.ma.rune_stone": "Рунный камень",
+      "advancements.holy_string_obtaining.descr": "Гитару ты не сделаешь",
+      "advancements.obsidian_staff_obtaining.title": "Обсидиановый посох",
+      "item.ma.stone_battle_axe": "Каменный боевой топор",
+      "block.ma.rune_trapdoor": "Рунный люк",
+      "block.ma.mana_trapdoor": "Мана люк",
+      "advancements.water_soul_obtainig.descr": "Это как вода без гравитации",
+      "item.ma.ice_crystal": "Ледяной кристал",
+      "advancements.magic_adventures.descr": "Ты даже незнаешь что тебя ждёт",
+      "advancements.skulk_soul_obaining.descr": "Кусочек вардена",
+      "advancements.beacon_activation.descr": "Активируйте маяк рунного мира",
+      "advancements.holy_blade_obtaining.title": "Святое лезвие",
+      "block.magic_staff_mod.holy_steel_block": "Блок святой стали",
+      "item.ma.stone_crystal": "Каменный кристал",
+      "item.ma.holy_battle_axe": "Святой боевой топор",
+      "item.ma.holy_hammer_obsidianed": "Обсидиановый святой молот",
+      "item.ma.obsidianed_hevy_holy_armor_leggings": "Обсидиановые тяжелые святые поножи",
+      "item.magic_staff_mod.stone_battle_axe": "Каменный боевой топор",
+      "item.ma.gungnir": "Гунгнир",
+      "block.magic_staff_mod.obsidian_ore": "Руда обсидиановой эссенции",
+      "advancements.soul_book_obtaining.descr": "Завораживающий душу хоррор",
+      "advancements.fire_book_obtaining.title": "Книга огня",
+      "advancements.obsidian_book_obtaining.descr": "Майнкрафт солгал касательно прочности обсидиана. Это остроумное утверждение",
+      "item.magic_staff_mod.vt_7": "ВЧ Мурасама",
+      "block.ma.mana_block": "Блок маны",
+      "advancements.obsidian_crystal_obtaining.descr": "Прочный",
+      "item.ma.ice_blade": "Ледяное лезвие",
+      "advancements.gungnir_obtaining.descr": "Не трезубец 2.0",
+      "item.ma.rune_beacon_core": "Ядро рунного маяка",
+      "item.ma.water_crystal": "Кристал воды",
+      "advancements.fire_crystal_obtaining.descr": "ОЧЕНЬ ГОРЯЧО!!!!"
+    },
+    "en_us": {
+      "advancements.holy_katana_obtaining.descr": "Speedy slice",
+      "block.magic_staff_mod.water_ore": "Water Ore",
+      "advancements.fire_book_obtaining.descr": "Some hot p... piece of art",
+      "item.magic_staff_mod.holy_holy_casting_hammer": "Holy Casting Hammer",
+      "block.ma.rune_wood": "Rune Wood",
+      "advancements.skulk_crystal_obtaining.descr": "Looks like space in there",
+      "block.magic_staff_mod.active_soul_sand": "Active Soul Sand",
+      "advancements.water_staff_obtaining.title": "Water Staff",
+      "advancements.holy_bow_obtaining.descr": "Shoots only spectral",
+      "item.ma.rune_world": "Rune World Portal Igniter",
+      "item.magic_staff_mod.stone_staff": "Stone Staff",
+      "item.ma.stone_staff": "Stone Staff",
+      "advancements.water_crystal_obtaining.title": "Water Crystal",
+      "advancements.brocken_mana_crystal_obtaining.descr": "Your magic adventure only begins",
+      "item.ma.obsidianed_hevy_holy_armor_chestplate": "ObsidianedHevyHoly Chestplate",
+      "item.ma.holy_water": "Holy Water",
+      "advancements.stone_crystal_obtaining.descr": "Stone... crystal...",
+      "item.ma.soul_string": "Soul String",
+      "item.magic_staff_mod.stone_crystal": "Stone Crystal",
+      "item.magic_staff_mod.ice_katana": "Ice Katana",
+      "item.ma.heavy_holy_armor_boots": "HeavyHoly Boots",
+      "item.ma.obsidian_staff": "Obsidian Staff",
+      "advancements.soul_crystal_obtaining.descr": "Finaly. Good crystal",
+      "block.ma.rune_emerald_ore": "Rune Emerald Ore",
+      "advancements.water_book_obtaining.title": "Water Book",
+      "item.ma.water_ingot": "Water Ingot",
+      "advancements.mana_book_obtaining.descr": "A LOT of mana",
+      "block.ma.rune_leaves": "Rune Leaves",
+      "block.ma.rune_cobble_wall": "Rune Cobble Wall",
+      "advancements.holy_ingot_obtaining.title": "god`s ingot",
+      "item.ma.heavy_holy_armor_chestplate": "HeavyHoly Chestplate",
+      "block.ma.rune_fence_gate": "Rune Fence Gate",
+      "block.ma.rune_brick_wall": "Rune Brick Wall",
+      "item.magic_staff_mod.brocken_mana_crystal": "Brocken Mana Crystal",
+      "block.ma.mana_door": "Mana Door",
+      "item.ma.enderite_armor_leggings": "Enderite Leggings",
+      "block.ma.mana_leaves": "Mana Leaves",
+      "advancements.holy_gard_obtaining.descr": "Looking good",
+      "item.magic_staff_mod.true_excalibur": "True Excalibur",
+      "item.magic_staff_mod.holy_nugget": "Holy Nugget",
+      "block.ma.corrupt_wood": "Corrupted Wood",
+      "item.magic_staff_mod.soul_string": "Soul String",
+      "item.ma.holy_blade": "Hollow Blade",
+      "advancements.fire_crystal_obtaining.title": "Fire Crystal",
+      "item.magic_staff_mod.holy_axe": "Holy Axe",
+      "block.ma.corrupt_trapdoor": "Corrupt Trapdoor",
+      "block.ma.stone_mana_ore": "Stone Mana Ore",
+      "biome.ma.corrupted_wastelands": "Corrupted Wastelands",
+      "item.ma.holy_bow_up": "Soul bow",
+      "advancements.excalibur_obtaining.title": "Excalibur",
+      "item.ma.enderite_sword": "Enderite Sword",
+      "advancements.axe_blade_obtaining.title": "Axe Blade",
+      "item.ma.enderite_crystal": "Enderite Crystal",
+      "item.magic_staff_mod.heavy_holy_armor_chestplate": "HeavyHoly Chestplate",
+      "item.magic_staff_mod.soul_essention": "Soul Essention",
+      "biome.ma.magic_forest": "Magic Forest",
+      "biome.ma.corrupted_forest": "Corrupted Forest",
+      "advancements.mana_crystal_obtaining.title": "It glowing",
+      "item.ma.holy_pickaxe": "Holy Pickaxe",
+      "advancements.holy_necklace_obtaining.title": "Holy Necklace",
+      "advancements.stone_book_obtaining.title": "Stone Book",
+      "block.magic_staff_mod.fire_ore": "Fire Ore",
+      "advancements.ice_staff_obtaining.title": "Ice Staff",
+      "advancements.holy_hammer_obtaining.title": "Holy Hammer",
+      "block.ma.holy_steel_block": "Holy Steel Block",
+      "advancements.water_ingot_obtaining.descr": "Why do you craft it?",
+      "advancements.fire_gard_obtaining.descr": "\"Cooler\" gard",
+      "item.magic_staff_mod.holy_string": "Holy String",
+      "block.ma.deepslate_ice_ore": "Deepslate Ice Ore",
+      "item.magic_staff_mod.holy_pickaxe": "Holy Pickaxe",
+      "item.ma.holy_string": "Hollow String",
+      "advancements.soul_staff_obtaining.title": "Soul Staff",
+      "block.ma.fire_stairs": "Fire Stairs",
+      "item.magic_staff_mod.fire_crystal": "Fire Crystal",
+      "item.magic_staff_mod.obsidian_crystal": "Obsidian Crystal",
+      "item.ma.obsidian_crystal": "Obsidian Crystal",
+      "advancements.obsidian_plate_obtaining.descr": "Hard",
+      "item.ma.stone_essention": "Stone Essention",
+      "advancements.ice_blade_obtaining.title": "Ice Blade",
+      "advancements.holy_gard_obtaining.title": "Holy Gard",
+      "advancements.holy_water_obtaining.title": "Die you zombies!",
+      "item.ma.soul_essention": "Soul Essention",
+      "advancements.water_book_obtaining.descr": "Watery history",
+      "block.ma.rune_diamond_ore": "Rune Diamond Ore",
+      "advancements.ice_crystal_obtaining.descr": "It slides out hands like soap",
+      "block.ma.fire_fence_gate": "Fire Fence Gate",
+      "item.ma.holy_plate": "Hollow Plate",
+      "item.magic_staff_mod.fire_ingot": "Fire Ingot",
+      "block.ma.rune_slab": "Rune Slab",
+      "block.ma.mana_log": "Mana Log",
+      "item.ma.holy_gard": "Hollow Gard",
+      "advancements.ice_soul_obtaining.title": "Ice Soul",
+      "item.ma.holy_hammer": "Holy Hammer",
+      "item.ma.enderite_axe": "Enderite Axe",
+      "item.magic_staff_mod.holy_axe_blade": "Holy Axe Blade",
+      "advancements.stone_crystal_obtaining.title": "Stone Crystal",
+      "block.ma.fire_ore": "Fire Ore",
+      "advancements.soul_crystal_obtaining.title": "that the spirit",
+      "itemGroup.tabmagic_resourses": "Magic Resourses",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_chestplate": "ObsidianedHevyHoly Chestplate",
+      "item.ma.obsidian_plate": "Obsidian Plate",
+      "block.ma.rune_copper_ore": "Rune Copper Ore",
+      "advancements.holy_water_obtaining.descr": "Do you belive in god?",
+      "advancements.skulk_crystal_obtaining.title": "Skulk Crystal",
+      "item.magic_staff_mod.heavy_holy_armor_leggings": "HeavyHoly Leggings",
+      "advancements.water_staff_obtaining.descr": "Enemies goes *weeeeeeeeeeeeeeeeee*",
+      "block.magic_staff_mod.stone_ore": "Stone Ore",
+      "block.ma.stone_ore": "Stone Ore",
+      "item.magic_staff_mod.obsidian_staff": "Obsidian Staff",
+      "advancements.skulk_catalyst_obtaining.descr": "So you kill a warden or looted a chest?",
+      "advancements.holy_katana_obtaining.title": "Holy Katana",
+      "item.magic_staff_mod.heavy_holy_armor_helmet": "HeavyHoly Helmet",
+      "item.magic_staff_mod.water_crystal": "Water Crystal",
+      "advancements.water_crystal_obtaining.descr": "Squish",
+      "item.magic_staff_mod.holy_plate": "Holy Plate",
+      "block.ma.stone_ice_ore": "Stone Ice Ore",
+      "item.magic_staff_mod.holy_hammer": "Holy Hammer",
+      "item.ma.holy_cast": "Hollow Cast",
+      "block.ma.obsidian_ore": "Obsidian Ore",
+      "advancements.beacon_activation.title": "New dimension travel",
+      "item.ma.concentrated_mana_crystal": "Concentrated Mana Crystal",
+      "item.ma.true_excalibur": "True Excalibur",
+      "block.ma.rune_cobble_slab": "Rune Cobble Slab",
+      "advancements.skulk_soul_obaining.title": "Skulk Soul",
+      "block.ma.fire_wood": "Fire Wood",
+      "advancements.ice_katana_obtaining.title": "Ice Katana",
+      "item.ma.true_gungnir": "True Gungnir",
+      "item.ma.soul_shard": "Soul Shard",
+      "item.ma.ice_katana": "Ice Katana",
+      "block.ma.rune_gold_ore": "Rune Gold Ore",
+      "block.ma.rune_world_beacon": "Rune World Beacon",
+      "advancements.ice_soul_obtaining.descr": "If you kill kitties you have one inside",
+      "item.magic_staff_mod.heavy_holy_armor_boots": "HeavyHoly Boots",
+      "advancements.obsidian_crystal_obtaining.title": "Obsidian Crystal",
+      "block.magic_staff_mod.stone_ice_ore": "Stone Ice Ore",
+      "item.ma.ice_book": "Ice Book",
+      "advancements.water_ingot_obtaining.title": "Useless ingot",
+      "advancements.soul_shard_obtaining.descr": "it`s pulsing",
+      "item.ma.enderite_armor_boots": "Enderite Boots",
+      "advancements.gungnir_obtaining.title": "Gungnir",
+      "item.magic_staff_mod.holy_water": "Holy Water",
+      "item.magic_staff_mod.holy_hammer_obsidianed": "Holy Hammer Obsidianed",
+      "item.ma.obsidian_book": "Obsidian Book",
+      "item.ma.skulk_crystal": "Skulk Crystal",
+      "block.ma.corrupt_leaves": "Corrupted Leaves",
+      "advancements.axe_blade_obtaining.descr": "Big blade",
+      "item.ma.ice_essention": "Ice Essention",
+      "advancements.obsidian_book_obtaining.title": "Obsidian Book",
+      "block.ma.fire_slab": "Fire Slab",
+      "item.ma.mana_chocolate_chunk": "Mana Chocolate Chunk",
+      "block.ma.mana_planks_slab": "Mana Slab",
+      "advancements.water_soul_obtainig.title": "Water Soul",
+      "item.magic_staff_mod.excalibur": "Excalibur",
+      "advancements.magic_book_obtaining.descr": "Base for magic",
+      "item.magic_staff_mod.soul_staff": "Soul Staff",
+      "item.magic_staff_mod.holy_katana": "Holy Katana",
+      "item.ma.mana_chocolate": "Mana Chocolate",
+      "item.magic_staff_mod.obsidian_essention": "Obsidian Essention",
+      "item.ma.holy_nugget": "Hollow Nugget",
+      "block.ma.fire_leaves": "Fire Leaves",
+      "item.ma.skulk_essention": "Skulk Essention",
+      "item.ma.raw_hollow_ore": "Raw hollow steel",
+      "block.ma.mana_fence_gate": "Mana Fence Gate",
+      "item.magic_staff_mod.holy_blade": "Holy Blade",
+      "block.ma.fire_log": "Fire Log",
+      "block.ma.rune_stone_slab": "Rune Stone Slab",
+      "advancements.stone_axe_blade_obtaining.title": "Stone Axe Blade",
+      "advancements.fire_soul_obtaining.title": "Fire Soul",
+      "advancements.obsidian_staff_obtaining.descr": "Some strong buffs",
+      "advancements.mana_chocolte_obtaining.title": "Sweet mana",
+      "block.ma.rune_hollow_ore": "Rune Hollow Ore",
+      "advancements.soul_bow_obtaining.title": "Soul Bow",
+      "item.magic_staff_mod.water_ingot": "Water Ingot",
+      "advancements.stone_staff_obtaining.title": "Stone Staff",
+      "item.magic_staff_mod.ice_crystal": "Ice Crystal",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_leggings": "ObsidianedHevyHoly Leggings",
+      "advancements.fire_staff_obtaining.title": "Fire Staff",
+      "advancements.obsidian_hammer_obtaining.descr": "MORE DAMAGE",
+      "item.magic_staff_mod.holy_cast": "Holy Cast",
+      "advancements.soul_essention_obtaining.descr": "Find a soul essention",
+      "item.magic_staff_mod.mana_belt": "Mana Belt",
+      "advancements.holy_battle_axe_obtaining.title": "Holy Battle Axe",
+      "advancements.concentrated_mana_crystal_use.descr": "Regenerate mana",
+      "advancements.mana_book_obtaining.title": "Mana Book",
+      "advancements.stone_soul_obtaining.descr": "It... gray",
+      "item.ma.brocken_mana_crystal": "Brocken Mana Crystal",
+      "itemGroup.tabmagic_weapons": "Magic Weapons",
+      "item.ma.holy_bow": "Holy Bow",
+      "subtitles.maxwell_placed": "",
+      "item.ma.holy_rod": "Hollow Rod",
+      "block.ma.mana_combiner": "Mana Combiner",
+      "advancements.fire_ingot_obtaining.descr": "NOOOO! Netherite ingot!",
+      "block.ma.rune_stairs": "Rune Stairs",
+      "block.ma.corrupt_door": "Corrupted Door",
+      "item.magic_staff_mod.mana_crystal": "Mana Crystal",
+      "item.ma.mana_crystal": "Mana Crystal",
+      "advancements.obsidian_soul_obtaining.descr": "Strong staff",
+      "block.ma.rune_door": "Rune Door",
+      "item.magic_staff_mod.obsidian_plate": "Obsidian Plate",
+      "item.ma.obsidian_essention": "Obsidian Essention",
+      "advancements.vte_7_obtaining.descr": "It jetstreming fast",
+      "advancements.holy_belt_obtaining.descr": "Pretty pretty",
+      "item.ma.fire_essention": "Fire Essention",
+      "item.magic_staff_mod.mana_chocolate": "Mana Chocolate",
+      "item.magic_staff_mod.water_staff": "Water Staff",
+      "item.ma.mana_book": "Mana Book",
+      "block.magic_staff_mod.stone_mana_ore": "Stone Mana Ore",
+      "advancements.magic_adventures.title": "Magic Adventures",
+      "item.magic_staff_mod.gungnir": "Gungnir",
+      "advancements.skulk_book_obtaining.descr": "Yup, there is no staff or melee",
+      "item.ma.enderite_shovel": "Enderite Shovel",
+      "item.magic_staff_mod.fire_staff": "Fire Staff",
+      "item.magic_staff_mod.water_essention": "Water Essention",
+      "block.ma.incomplete_rune_world_beacon": "Incomplete Rune World Beacon",
+      "item.ma.ice_staff": "Ice Staff",
+      "block.ma.corrupt_log": "Corrupted Log",
+      "block.magic_staff_mod.mana_block": "Mana Block",
+      "advancements.stone_staff_obtaining.descr": "Woah! It`s stone on holy stick)",
+      "item.ma.holy_ingot": "Hollow Ingot",
+      "block.ma.corrupt_stairs": "Corrupted Stairs",
+      "block.ma.rune_redstone_ore": "Rune Redstone Ore",
+      "advancements.obsidian_plate_obtaining.title": "Obsidian Plate",
+      "item.ma.water_staff": "Water Staff",
+      "block.ma.rune_brick_stairs": "Rune Brick Stairs",
+      "advancements.soul_book_obtaining.title": "Soul Book",
+      "advancements.fire_soul_obtaining.descr": "HOT!",
+      "advancements.holy_blade_obtaining.descr": "Sharp",
+      "block.ma.corrupt_fence_gate": "Corrupted Fence Gate",
+      "item.ma.mana_necklace": "Mana Necklace",
+      "advancements.soul_string_obtaining.descr": "Soul Brrrrrr",
+      "biome.ma.fire_forest": "Fire Forest",
+      "block.ma.water_ore": "Water Ore",
+      "item.ma.mana_belt": "Mana Belt",
+      "item.ma.soul_crystal": "Soul Crystal",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_boots": "ObsidianedHevyHoly Boots",
+      "block.ma.mana_wood": "Mana Wood",
+      "block.ma.mana_stairs": "Mana Stairs",
+      "item.magic_staff_mod.soul_crystal": "Soul Crystal",
+      "advancements.holy_necklace_obtaining.descr": "Pretty",
+      "advancements.holy_string_obtaining.title": "Holy String",
+      "block.magic_staff_mod.deepslate_mana_ore": "Deepslate Mana Ore",
+      "block.ma.rune_stone_brick": "Rune Stone Brick",
+      "advancements.stone_battle_axe_obtaining.title": "Stone Battle Axe",
+      "advancements.ice_book_obtaining.descr": "Brain freezing book",
+      "item.magic_staff_mod.ice_essention": "Ice Essention",
+      "advancements.soul_staff_obtaining.descr": "Take their souls",
+      "advancements.fire_gard_obtaining.title": "Fire Gard",
+      "item.ma.enderite_armor_chestplate": "Enderite Body",
+      "block.ma.active_soul_sand": "Active Soul Sand",
+      "item.ma.excalibur": "Excalibur",
+      "item.ma.magic_book": "Magic Book",
+      "advancements.stone_battle_axe_obtaining.descr": "Not really from stone",
+      "advancements.ice_book_obtaining.title": "Ice Book",
+      "item.ma.uncomplite_holy_blade": "Uncomplite Hollow Blade",
+      "block.ma.rune_log": "Rune Log",
+      "advancements.skulk_catalyst_obtaining.title": "Skulk adventures",
+      "advancements.ice_katana_obtaining.descr": "Will slice enemies like cold knife butter",
+      "item.ma.vt_7": "HF Murasama",
+      "item.magic_staff_mod.fire_gard": "Fire Gard",
+      "item.magic_staff_mod.mana_necklace": "Mana Necklace",
+      "subtitles.the_only_thing_i_know_for_real": "Best music",
+      "item.ma.enderite_armor_helmet": "Enderite Helmet",
+      "advancements.soul_string_obtaining.title": "Soul String",
+      "block.ma.enderite_ore": "Enderite Ore",
+      "item.magic_staff_mod.holy_bow": "Holy Bow",
+      "subtitles.maxwell_break": "",
+      "item.magic_staff_mod.holy_rod": "Holy Rod",
+      "advancements.fire_excalibur_obtaining.descr": "That was an old idea too",
+      "item.magic_staff_mod.holy_ingot": "Holy Ingot",
+      "advancements.soul_shard_obtaining.title": "Soul Shard",
+      "item.ma.holy_axe_blade": "Hollow Axe Blade",
+      "item.magic_staff_mod.ice_staff": "Ice Staff",
+      "item.ma.fire_staff": "Fire Staff",
+      "item.ma.water_essention": "Water Essention",
+      "item.ma.enderite_pickaxe": "Enderite Pickaxe",
+      "block.ma.rune_cobblestone": "Rune Cobblestone",
+      "advancements.obsidian_hammer_obtaining.title": "Obsidian Hammer",
+      "block.ma.corrupt_slab": "Corrupted Slab",
+      "item.magic_staff_mod.fire_essention": "Fire Essention",
+      "block.ma.cutted_rune_stone": "Cutted Rune Stone",
+      "item.ma.holy_axe": "Holy Axe",
+      "advancements.skulk_book_obtaining.title": "Skulk Book",
+      "advancements.vte_7_obtaining.title": "HOLY CRAP IT`S MURASAMA",
+      "item.magic_staff_mod.uncomplite_holy_blade": "Uncomplite Holy Blade",
+      "advancements.holy_bow_obtaining.title": "Holy Bow Obtaining",
+      "item.ma.enderite_hoe": "Enderite Hoe",
+      "advancements.concentrated_mana_crystal_use.title": "Mana regeneration metods",
+      "advancements.obsidian_soul_obtaining.title": "Obsidian Soul",
+      "advancements.fire_ingot_obtaining.title": "Fire Ingot",
+      "advancements.holy_battle_axe_obtaining.descr": "Big slicy boi",
+      "item.magic_staff_mod.obsidianed_hevy_holy_armor_helmet": "ObsidianedHevyHoly Helmet",
+      "advancements.stone_axe_blade_obtaining.descr": "Stony boi",
+      "advancements.holy_hammer_obtaining.descr": "Smash",
+      "block.ma.deepslate_mana_ore": "Deepslate Mana Ore",
+      "item.ma.stone_axe_blade": "Stone Axe Blade",
+      "item.ma.fire_crystal": "Fire Crystal",
+      "block.ma.rune_planks": "Rune Planks",
+      "advancements.brocken_mana_crystal_obtaining.title": "It`s brocken",
+      "advancements.ice_staff_obtaining.descr": "Enemies goes slow",
+      "advancements.holy_belt_obtaining.title": "Holy Belt",
+      "item.ma.skulk_book": "Skulk Book",
+      "advancements.holy_ingot_obtaining.descr": "it glowing to",
+      "itemGroup.tabmagic_melee_weapons": "Magic Melee Weapons",
+      "block.magic_staff_mod.deepslate_ice_ore": "Deepslate Ice Ore",
+      "advancements.ice_crystal_obtaining.title": "Ice Crystal",
+      "item.ma.fire_gard": "Fire Gard",
+      "item.magic_staff_mod.true_gungnir": "True Gungnir",
+      "advancements.ice_blade_obtaining.descr": "Slippery sharp",
+      "item.ma.water_book": "Water Book",
+      "block.ma.rune_iron_ore": "Rune Iron Ore",
+      "item.magic_staff_mod.mana_chocolate_chunk": "Mana Chocolate Chunk",
+      "item.ma.fire_ingot": "Fire Ingot",
+      "item.ma.stone_book": "Stone Book",
+      "item.magic_staff_mod.stone_essention": "Stone Essention",
+      "itemGroup.tabmagic_armor": "Magic Armor",
+      "advancements.excalibur_obtaining.descr": "The Sword that was an idea a long time ago",
+      "block.ma.rune_lapis_lazuli_ore": "Rune Lapis Lazuli Ore",
+      "advancements.magic_book_obtaining.title": "Magic Book",
+      "advancements.soul_bow_obtaining.descr": "Shoot their soul out",
+      "biome.ma.rune_forest": "Rune Forest",
+      "advancements.fire_excalibur_obtaining.title": "Fire Excalibur",
+      "item.magic_staff_mod.ice_blade": "Ice Blade",
+      "block.ma.rune_brick_slab": "Rune Brick Slab",
+      "item.ma.holy_holy_casting_hammer": "Holy Casting Hammer",
+      "advancements.stone_soul_obtaining.title": "Stone Soul",
+      "advancements.mana_chocolte_obtaining.descr": "Yummy",
+      "block.ma.mana_planks": "Mana Planks",
+      "item.ma.heavy_holy_armor_helmet": "HeavyHoly Helmet",
+      "item.magic_staff_mod.holy_gard": "Holy Gard",
+      "block.ma.fire_trapdoor": "Fire Trapdoor",
+      "item.ma.soul_staff": "Soul Staff",
+      "item.magic_staff_mod.stone_axe_blade": "Stone Axe Blade",
+      "item.magic_staff_mod.holy_bow_up": "Soul bow",
+      "block.ma.corrupt_planks": "Corrupted Planks",
+      "block.ma.fire_door": "Fire Door",
+      "advancements.soul_essention_obtaining.title": "The one that made it",
+      "advancements.stone_book_obtaining.descr": "I don`t have a joke",
+      "item.ma.obsidianed_hevy_holy_armor_helmet": "ObsidianedHevyHoly Helmet",
+      "advancements.fire_staff_obtaining.descr": "\"cool\" staff",
+      "advancements.mana_crystal_obtaining.descr": "Crystal still dont have powers",
+      "item.magic_staff_mod.soul_shard": "Soul Shard",
+      "block.ma.rune_stone_stairs": "Rune Stone Stairs",
+      "item.ma.heavy_holy_armor_leggings": "HeavyHoly Leggings",
+      "item.ma.fire_book": "Fire Book",
+      "item.magic_staff_mod.concentrated_mana_crystal": "Concentrated Mana Crystal",
+      "block.ma.fire_planks": "Fire Planks",
+      "item.ma.holy_katana": "Holy Katana",
+      "item.ma.obsidianed_hevy_holy_armor_boots": "ObsidianedHevyHoly Boots",
+      "item.ma.soul_book": "Soul Book",
+      "block.ma.rune_cobble_stairs": "Rune Cobble Stairs",
+      "item.magic_staff_mod.holy_battle_axe": "Holy Battle Axe",
+      "block.ma.rune_stone": "Rune Stone",
+      "advancements.holy_string_obtaining.descr": "You cant make guitar",
+      "advancements.obsidian_staff_obtaining.title": "Obsidian Staff",
+      "item.ma.stone_battle_axe": "Stone Battle Axe",
+      "block.ma.rune_trapdoor": "Rune Trapdoor",
+      "block.ma.mana_trapdoor": "Mana Trapdoor",
+      "advancements.water_soul_obtainig.descr": "It`s like no-gravity water",
+      "item.ma.ice_crystal": "Ice Crystal",
+      "advancements.magic_adventures.descr": "You dont realy know what to wait for",
+      "advancements.skulk_soul_obaining.descr": "Part of warden",
+      "advancements.beacon_activation.descr": "Activate Rune World Beacon",
+      "advancements.holy_blade_obtaining.title": "Holy Blade",
+      "block.magic_staff_mod.holy_steel_block": "Holy Steel Block",
+      "item.ma.stone_crystal": "Stone Crystal",
+      "item.ma.holy_battle_axe": "Holy Battle Axe",
+      "item.ma.holy_hammer_obsidianed": "Holy Hammer Obsidianed",
+      "item.ma.obsidianed_hevy_holy_armor_leggings": "ObsidianedHevyHoly Leggings",
+      "item.magic_staff_mod.stone_battle_axe": "Stone Battle Axe",
+      "item.ma.gungnir": "Gungnir",
+      "block.magic_staff_mod.obsidian_ore": "Obsidian Ore",
+      "advancements.soul_book_obtaining.descr": "Soul freezing horror",
+      "advancements.fire_book_obtaining.title": "Fire Book",
+      "advancements.obsidian_book_obtaining.descr": "Minecraft lied about obsidian hardnes. That a sharp answer",
+      "item.magic_staff_mod.vt_7": "HF Murasama",
+      "block.ma.mana_block": "Mana Block",
+      "advancements.obsidian_crystal_obtaining.descr": "Hard to break",
+      "item.ma.ice_blade": "Ice Blade",
+      "advancements.gungnir_obtaining.descr": "Not a trident 2.0",
+      "item.ma.rune_beacon_core": "Rune Beacon Core",
+      "item.ma.water_crystal": "Water Crystal",
+      "advancements.fire_crystal_obtaining.descr": "SO HOT!!!!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ma",
+    "modName": "Magic Adventures",
+    "version": "1.1",
+    "author": "Epikgame, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link",
+      "playeranimator"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.magicstaffmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

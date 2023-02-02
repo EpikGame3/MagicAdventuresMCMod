@@ -1,0 +1,105 @@
+{
+  "ma:holy_belt_obtaining": {
+    "criteria": {
+      "holy_belt_obtaining": "2023-01-28 14:18:49 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_staff_obtaining": {
+    "criteria": {
+      "stone_staff_obtaining": "2023-02-01 12:16:20 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_necklace_obtaining": {
+    "criteria": {
+      "holy_necklace_obtaining": "2023-01-28 14:18:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-22 12:09:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-01-28 14:19:14 +0200"
+    },
+    "done": true
+  },
+  "ma:magic_adventures": {
+    "criteria": {
+      "magic_adventures": "2023-01-17 08:46:27 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2023-01-20 09:07:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-01-22 12:09:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-01-28 14:18:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-01-22 12:09:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-01-28 14:19:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-01-22 12:09:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-22 12:09:51 +0200"
+    },
+    "done": true
+  },
+  "ma:beacon_activation": {
+    "criteria": {
+      "beacon_activation": "2023-01-20 08:49:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-01-22 12:09:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-01-22 12:09:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2023-01-17 08:46:28 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

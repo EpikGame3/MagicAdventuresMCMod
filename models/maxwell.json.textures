@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "maxwell_text"
+      },
+      "name": "default"
+    }
+  }
+}

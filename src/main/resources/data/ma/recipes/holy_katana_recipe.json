@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "ma:holy_blade"
+    },
+    "4": {
+      "item": "ma:holy_blade"
+    },
+    "6": {
+      "item": "ma:holy_rod"
+    }
+  },
+  "result": {
+    "item": "ma:holy_katana",
+    "count": 1
+  }
+}

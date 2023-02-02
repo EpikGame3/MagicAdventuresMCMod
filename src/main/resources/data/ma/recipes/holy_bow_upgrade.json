@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_bow"
+    },
+    "1": {
+      "item": "ma:soul_string"
+    },
+    "2": {
+      "item": "ma:holy_holy_casting_hammer"
+    }
+  },
+  "result": {
+    "item": "ma:holy_bow_up",
+    "count": 1
+  }
+}

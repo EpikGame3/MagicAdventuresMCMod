@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "ma:blocks/manaplanks",
+    "top": "ma:blocks/manaplanks",
+    "side": "ma:blocks/manaplanks"
+  },
+  "render_type": "solid"
+}

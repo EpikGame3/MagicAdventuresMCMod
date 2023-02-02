@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:rune_planks"
+    },
+    "1": {
+      "item": "ma:rune_planks"
+    },
+    "2": {
+      "item": "ma:rune_planks"
+    },
+    "3": {
+      "item": "ma:rune_planks"
+    },
+    "4": {
+      "item": "ma:rune_planks"
+    },
+    "5": {
+      "item": "ma:rune_planks"
+    }
+  },
+  "result": {
+    "item": "ma:rune_door",
+    "count": 3
+  }
+}

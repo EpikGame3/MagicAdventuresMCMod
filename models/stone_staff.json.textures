@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "stonestaffv2"
+      },
+      "name": "default"
+    }
+  }
+}

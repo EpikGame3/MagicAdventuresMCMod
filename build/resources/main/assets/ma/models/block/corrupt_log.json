@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ma:blocks/mana_vierkh",
+    "up": "ma:blocks/mana_vierkh",
+    "north": "ma:blocks/mana_brievno",
+    "east": "ma:blocks/mana_brievno",
+    "south": "ma:blocks/mana_brievno",
+    "west": "ma:blocks/mana_brievno",
+    "particle": "ma:blocks/mana_vierkh"
+  },
+  "render_type": "solid"
+}

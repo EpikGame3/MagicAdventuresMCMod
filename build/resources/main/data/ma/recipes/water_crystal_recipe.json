@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ma:water_essention"
+    },
+    "3": {
+      "item": "minecraft:water_bucket"
+    },
+    "4": {
+      "item": "ma:mana_crystal"
+    },
+    "5": {
+      "item": "minecraft:water_bucket"
+    },
+    "7": {
+      "item": "ma:water_essention"
+    }
+  },
+  "result": {
+    "item": "ma:water_crystal",
+    "count": 1
+  }
+}

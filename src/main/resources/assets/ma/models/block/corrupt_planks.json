@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/corruptplanks",
+    "particle": "ma:blocks/corruptplanks"
+  },
+  "render_type": "solid"
+}

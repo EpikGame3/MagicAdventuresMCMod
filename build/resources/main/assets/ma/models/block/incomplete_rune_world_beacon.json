@@ -1,0 +1,9 @@
+{
+  "parent": "ma:custom/magicworldbeacon",
+  "textures": {
+    "all": "ma:blocks/mwb_text",
+    "particle": "ma:blocks/mwb_text",
+    "0": "ma:blocks/mwbi_text"
+  },
+  "render_type": "solid"
+}

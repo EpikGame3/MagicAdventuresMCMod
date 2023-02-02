@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HolyWater"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "CUSTOM:HolyWater"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "CUSTOM:HolyWater"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "CUSTOM:HolyWater"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ConcentratedManaCrystal"
+    },
+    "name": "concentrated_mana_crystal_recipe",
+    "namespace": "mod"
+  }
+}

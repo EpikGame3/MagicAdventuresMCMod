@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/true_excalibur",
+  "textures": {
+    "0": "ma:blocks/true_excalibur_text",
+    "particle": "ma:items/true_excalibur_text"
+  }
+}

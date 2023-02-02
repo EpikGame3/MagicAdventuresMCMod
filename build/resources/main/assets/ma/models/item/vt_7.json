@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/murasama",
+  "textures": {
+    "1": "ma:blocks/glowinng_murasama_text",
+    "particle": "ma:items/glowinng_murasama_text"
+  }
+}

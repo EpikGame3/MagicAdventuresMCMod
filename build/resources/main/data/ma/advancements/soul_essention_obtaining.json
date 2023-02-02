@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:soul_essention"
+    },
+    "title": {
+      "translate": "advancements.soul_essention_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.soul_essention_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_essention_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:soul_essention"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:mana_crystal_obtaining"
+}

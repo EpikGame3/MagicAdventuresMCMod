@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "ma:blocks/rune_stone",
+    "top": "ma:blocks/rune_stone",
+    "side": "ma:blocks/rune_stone"
+  },
+  "render_type": "solid"
+}

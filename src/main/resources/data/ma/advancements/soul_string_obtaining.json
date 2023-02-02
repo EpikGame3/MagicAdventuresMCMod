@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:soul_string"
+    },
+    "title": {
+      "translate": "advancements.soul_string_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.soul_string_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "soul_string_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:soul_string"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:soul_crystal_obtaining"
+}

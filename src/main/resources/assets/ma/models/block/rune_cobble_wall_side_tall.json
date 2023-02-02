@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "ma:blocks/rune_stone_cobble",
+    "particle": "ma:blocks/rune_stone_cobble"
+  },
+  "render_type": "cutout"
+}

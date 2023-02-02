@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "ma:blocks/corruptplanks"
+  },
+  "render_type": "solid"
+}

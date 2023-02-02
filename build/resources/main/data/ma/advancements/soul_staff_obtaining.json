@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:soul_staff"
+    },
+    "title": {
+      "translate": "advancements.soul_staff_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.soul_staff_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soul_staff_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:soul_staff"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:soul_crystal_obtaining"
+}

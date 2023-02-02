@@ -1,0 +1,49 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "soul_essention",
+    "customModelName": "soulbook:default",
+    "name": "Soul Book",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MagicWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 2900,
+    "actionSound": {
+      "value": "particle.soul_escape"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SoulStaffRangedItemUsed"
+    },
+    "useCondition": {
+      "name": "ObsidianStaffCanUseRangedItem"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 2,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.AIR"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "SoulStaffProjectileHitsLivingEntity"
+    },
+    "onBulletFlyingTick": {
+      "name": "HolyBowUpWhileProjectileFlyingTick"
+    }
+  }
+}

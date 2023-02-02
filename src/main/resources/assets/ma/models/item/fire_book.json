@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/firebook",
+  "textures": {
+    "0": "ma:blocks/firebooktext",
+    "particle": "ma:items/fire_essention"
+  }
+}

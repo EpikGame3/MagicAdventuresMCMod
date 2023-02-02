@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ma:concentrated_mana_crystal"
+    },
+    "3": {
+      "item": "ma:concentrated_mana_crystal"
+    },
+    "4": {
+      "item": "ma:mana_block"
+    },
+    "5": {
+      "item": "ma:concentrated_mana_crystal"
+    },
+    "7": {
+      "item": "ma:concentrated_mana_crystal"
+    }
+  },
+  "result": {
+    "item": "ma:rune_beacon_core",
+    "count": 1
+  }
+}

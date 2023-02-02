@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ma:blocks/mifichieskoie_brievno",
+    "up": "ma:blocks/mifichieskoie_brievno",
+    "north": "ma:blocks/mfghichieskoie_brievno",
+    "east": "ma:blocks/mfghichieskoie_brievno",
+    "south": "ma:blocks/mfghichieskoie_brievno",
+    "west": "ma:blocks/mfghichieskoie_brievno",
+    "particle": "ma:blocks/mifichieskoie_brievno"
+  },
+  "render_type": "solid"
+}

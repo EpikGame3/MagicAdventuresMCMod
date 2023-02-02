@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/mana_leaves",
+    "particle": "ma:blocks/mana_leaves"
+  },
+  "render_type": "solid"
+}

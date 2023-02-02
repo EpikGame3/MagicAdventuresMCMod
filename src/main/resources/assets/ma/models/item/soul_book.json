@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/soulbook",
+  "textures": {
+    "0": "ma:blocks/soulbooktext",
+    "particle": "ma:items/soul_essention"
+  }
+}

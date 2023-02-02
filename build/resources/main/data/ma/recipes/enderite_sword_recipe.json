@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:enderite_crystal"
+    },
+    "1": {
+      "item": "ma:enderite_crystal"
+    },
+    "2": {
+      "item": "ma:holy_rod"
+    }
+  },
+  "result": {
+    "item": "ma:enderite_sword",
+    "count": 1
+  }
+}

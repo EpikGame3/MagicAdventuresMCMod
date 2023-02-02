@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:rune_world_beacon"
+    },
+    "title": {
+      "translate": "advancements.beacon_activation.title"
+    },
+    "description": {
+      "translate": "advancements.beacon_activation.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "beacon_activation": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "ma:concentrated_mana_crystal_use"
+}

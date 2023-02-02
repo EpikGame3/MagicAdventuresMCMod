@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_ingot"
+    },
+    "2": {
+      "item": "ma:holy_ingot"
+    },
+    "3": {
+      "item": "ma:holy_plate"
+    },
+    "5": {
+      "item": "ma:holy_plate"
+    }
+  },
+  "result": {
+    "item": "ma:heavy_holy_armor_boots",
+    "count": 1
+  }
+}

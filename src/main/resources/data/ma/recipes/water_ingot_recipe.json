@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_ingot"
+  },
+  "addition": {
+    "item": "ma:water_crystal"
+  },
+  "result": {
+    "item": "ma:water_ingot"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HolyPlate"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HolyPlate"
+      },
+      {
+        "value": "CUSTOM:HolyIngot"
+      },
+      {
+        "value": "CUSTOM:HolySteelBlock"
+      },
+      {
+        "value": "CUSTOM:HolyIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HolyPlate"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HeavyHolyArmor.body"
+    },
+    "name": "heavy_holy_armor_body_recipe",
+    "namespace": "mod"
+  }
+}

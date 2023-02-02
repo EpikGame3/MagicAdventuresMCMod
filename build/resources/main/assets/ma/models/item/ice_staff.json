@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/ice_staff",
+  "textures": {
+    "0": "ma:blocks/icestaffv2",
+    "particle": "ma:items/ice_staff_text"
+  }
+}

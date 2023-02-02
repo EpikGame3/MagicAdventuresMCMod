@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/holybow",
+  "textures": {
+    "0": "ma:blocks/holybow",
+    "particle": "ma:items/holybow_text_1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "ma:block/rune_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "ma:block/rune_log"
+    },
+    "axis=z": {
+      "model": "ma:block/rune_log",
+      "x": 90
+    }
+  }
+}

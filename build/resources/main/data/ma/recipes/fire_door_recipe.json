@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:fire_planks"
+    },
+    "1": {
+      "item": "ma:fire_planks"
+    },
+    "2": {
+      "item": "ma:fire_planks"
+    },
+    "3": {
+      "item": "ma:fire_planks"
+    },
+    "4": {
+      "item": "ma:fire_planks"
+    },
+    "5": {
+      "item": "ma:fire_planks"
+    }
+  },
+  "result": {
+    "item": "ma:fire_door",
+    "count": 3
+  }
+}

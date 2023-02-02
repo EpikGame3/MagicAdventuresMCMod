@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/stone_staff",
+  "textures": {
+    "0": "ma:blocks/stonestaffv2",
+    "particle": "ma:items/stone_staff_text"
+  }
+}

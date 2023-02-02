@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/runeplanks",
+    "particle": "ma:blocks/runeplanks"
+  },
+  "render_type": "solid"
+}

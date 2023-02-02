@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RuneCobblestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RuneCobblestone"
+      },
+      {
+        "value": "CUSTOM:RuneCobblestone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RuneCobblestone"
+      },
+      {
+        "value": "CUSTOM:RuneCobblestone"
+      },
+      {
+        "value": "CUSTOM:RuneCobblestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RuneCobbleStairs"
+    },
+    "name": "rune_cobble_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/soulstaff",
+  "textures": {
+    "0": "ma:blocks/soulstafftext",
+    "particle": "ma:items/holy_rod"
+  }
+}

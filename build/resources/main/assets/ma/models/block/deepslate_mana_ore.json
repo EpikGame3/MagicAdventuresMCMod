@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/depslatemanaore",
+    "particle": "ma:blocks/depslatemanaore"
+  },
+  "render_type": "solid"
+}

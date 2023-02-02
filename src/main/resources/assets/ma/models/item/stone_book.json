@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/stonebook",
+  "textures": {
+    "0": "ma:blocks/stonebook",
+    "particle": "ma:items/stone_essention"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireEssention"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireCrystal"
+      },
+      {
+        "value": "CUSTOM:MagicBook"
+      },
+      {
+        "value": "CUSTOM:FireCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireEssention"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FireBook"
+    },
+    "name": "fire_book_recipe",
+    "namespace": "mod"
+  }
+}

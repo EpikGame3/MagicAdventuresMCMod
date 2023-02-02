@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RuneLog"
+      },
+      {
+        "value": "CUSTOM:RuneWood"
+      },
+      {
+        "value": "CUSTOM:RunePlanks"
+      },
+      {
+        "value": "CUSTOM:RuneSlab"
+      },
+      {
+        "value": "CUSTOM:RuneStairs"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "rune_wood_tag",
+    "namespace": "forge"
+  }
+}

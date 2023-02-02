@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:fire_planks"
+    },
+    "3": {
+      "item": "ma:fire_planks"
+    },
+    "4": {
+      "item": "ma:fire_planks"
+    },
+    "6": {
+      "item": "ma:fire_planks"
+    },
+    "7": {
+      "item": "ma:fire_planks"
+    },
+    "8": {
+      "item": "ma:fire_planks"
+    }
+  },
+  "result": {
+    "item": "ma:fire_stairs",
+    "count": 4
+  }
+}

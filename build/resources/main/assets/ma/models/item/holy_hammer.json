@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/holy_hammer",
+  "textures": {
+    "0": "ma:blocks/hammertext",
+    "particle": "ma:items/holy_hamer_1_text"
+  }
+}

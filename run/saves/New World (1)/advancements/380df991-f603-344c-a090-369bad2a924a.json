@@ -1,0 +1,15 @@
+{
+  "ma:magic_adventures": {
+    "criteria": {
+      "magic_adventures": "2022-12-13 14:11:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-12-13 14:11:16 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

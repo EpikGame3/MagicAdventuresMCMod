@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:corrupt_planks"
+    },
+    "1": {
+      "item": "ma:corrupt_planks"
+    },
+    "2": {
+      "item": "ma:corrupt_planks"
+    },
+    "3": {
+      "item": "ma:corrupt_planks"
+    },
+    "4": {
+      "item": "ma:corrupt_planks"
+    },
+    "5": {
+      "item": "ma:corrupt_planks"
+    }
+  },
+  "result": {
+    "item": "ma:corrupt_door",
+    "count": 3
+  }
+}

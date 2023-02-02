@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:fire_book"
+    },
+    "title": {
+      "translate": "advancements.fire_book_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.fire_book_obtaining.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "fire_book_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:fire_book"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:fire_crystal_obtaining"
+}

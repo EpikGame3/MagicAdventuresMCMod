@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/water_staff",
+  "textures": {
+    "0": "ma:blocks/waterstaffv2",
+    "particle": "ma:items/water_staff_text"
+  }
+}

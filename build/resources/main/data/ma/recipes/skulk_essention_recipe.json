@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sculk_catalyst"
+    },
+    "1": {
+      "item": "ma:stone_essention"
+    },
+    "2": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "result": {
+    "item": "ma:skulk_essention",
+    "count": 1
+  }
+}

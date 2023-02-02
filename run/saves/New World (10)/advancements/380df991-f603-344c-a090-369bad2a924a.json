@@ -1,0 +1,267 @@
+{
+  "ma:holy_belt_obtaining": {
+    "criteria": {
+      "holy_belt_obtaining": "2023-01-08 12:47:04 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_staff_obtaining": {
+    "criteria": {
+      "stone_staff_obtaining": "2023-01-08 12:44:10 +0200"
+    },
+    "done": true
+  },
+  "ma:soul_staff_obtaining": {
+    "criteria": {
+      "soul_staff_obtaining": "2023-01-08 12:44:08 +0200"
+    },
+    "done": true
+  },
+  "ma:water_staff_obtaining": {
+    "criteria": {
+      "water_staff_obtaining": "2023-01-08 12:44:01 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_necklace_obtaining": {
+    "criteria": {
+      "holy_necklace_obtaining": "2023-01-08 12:46:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-08 12:49:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "ma:new_portal": {
+    "criteria": {
+      "new_portal": "2023-01-08 12:41:31 +0200"
+    },
+    "done": true
+  },
+  "ma:obsidian_staff_obtaining": {
+    "criteria": {
+      "obsidian_staff_obtaining": "2023-01-08 12:44:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "ma:skulk_book_obtaining": {
+    "criteria": {
+      "skulk_book_obtaining": "2023-01-08 12:48:07 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_excalibur_obtaining": {
+    "criteria": {
+      "fire_excalibur_obtaining": "2023-01-08 12:45:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "ma:mana_book_obtaining": {
+    "criteria": {
+      "mana_book_obtaining": "2023-01-08 12:48:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2023-01-08 12:42:42 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_book_obtaining": {
+    "criteria": {
+      "stone_book_obtaining": "2023-01-08 12:48:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-01-08 12:49:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "ma:magic_adventures": {
+    "criteria": {
+      "magic_adventures": "2023-01-08 12:20:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2023-01-08 12:43:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-01-08 12:49:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-01-08 12:49:08 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_staff_obtaining": {
+    "criteria": {
+      "fire_staff_obtaining": "2023-01-08 12:44:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2023-01-08 12:45:47 +0200"
+    },
+    "done": true
+  },
+  "ma:magic_book_obtaining": {
+    "criteria": {
+      "magic_book_obtaining": "2023-01-08 12:47:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-01-08 12:49:08 +0200"
+    },
+    "done": true
+  },
+  "ma:vte_7_obtaining": {
+    "criteria": {
+      "vte_7_obtaining": "2023-01-08 12:45:53 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2023-01-08 12:49:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-08 12:49:08 +0200"
+    },
+    "done": true
+  },
+  "ma:ice_staff_obtaining": {
+    "criteria": {
+      "ice_staff_obtaining": "2023-01-08 12:44:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2023-01-08 12:45:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-01-08 12:21:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2023-01-08 12:42:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2023-01-08 12:49:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-01-08 12:49:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-01-08 12:49:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-01-08 12:21:22 +0200"
+    },
+    "done": true
+  },
+  "ma:mana_chocolte_obtaining": {
+    "criteria": {
+      "mana_chocolte_obtaining": "2023-01-08 12:50:49 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

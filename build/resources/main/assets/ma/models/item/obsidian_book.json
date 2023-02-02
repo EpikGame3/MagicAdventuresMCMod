@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/obsidianbook",
+  "textures": {
+    "0": "ma:blocks/obsidianbook",
+    "particle": "ma:items/obsidian_essention"
+  }
+}

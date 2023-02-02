@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "ma:holy_plate"
+  },
+  "addition": {
+    "item": "ma:holy_holy_casting_hammer"
+  },
+  "result": {
+    "item": "ma:uncomplite_holy_blade"
+  }
+}

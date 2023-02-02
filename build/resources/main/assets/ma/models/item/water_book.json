@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/waterbook",
+  "textures": {
+    "0": "ma:blocks/waterbooktext",
+    "particle": "ma:items/water_essention"
+  }
+}

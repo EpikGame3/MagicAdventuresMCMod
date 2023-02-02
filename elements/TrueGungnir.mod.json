@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "true_gungnir_text",
+    "customModelName": "true_gungnir:default",
+    "name": "True Gungnir",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MagicMeleeWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 5124,
+    "actionSound": {
+      "value": "item.bucket.empty"
+    },
+    "hasGlow": true,
+    "animation": "spear",
+    "enableMeleeDamage": true,
+    "damageVsEntity": 14.0,
+    "onRangedItemUsed": {
+      "name": "WaterStaffRangedItemUsed"
+    },
+    "useCondition": {
+      "name": "WaterStaffCanUseRangedItem"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 2.0,
+    "bulletKnockback": 9,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "WaterStaffProjectileHitsLivingEntity"
+    }
+  }
+}

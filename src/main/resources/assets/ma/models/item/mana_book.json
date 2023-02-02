@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/manabook",
+  "textures": {
+    "0": "ma:blocks/manabooktext",
+    "particle": "ma:items/pressed_mana_crystal"
+  }
+}

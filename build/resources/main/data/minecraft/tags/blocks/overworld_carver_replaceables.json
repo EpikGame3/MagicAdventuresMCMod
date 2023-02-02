@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ma:rune_stone",
+    "minecraft:grass_block",
+    "minecraft:dirt",
+    "minecraft:mycelium"
+  ]
+}

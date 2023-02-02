@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/ice_katana",
+  "textures": {
+    "0": "ma:blocks/icekatanatext",
+    "particle": "ma:items/icekatanatext"
+  }
+}

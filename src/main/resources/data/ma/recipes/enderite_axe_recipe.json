@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:enderite_crystal"
+    },
+    "1": {
+      "item": "ma:enderite_crystal"
+    },
+    "2": {
+      "item": "ma:enderite_crystal"
+    },
+    "3": {
+      "item": "ma:soul_staff"
+    },
+    "5": {
+      "item": "ma:soul_staff"
+    }
+  },
+  "result": {
+    "item": "ma:enderite_axe",
+    "count": 1
+  }
+}

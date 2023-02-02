@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:mana_crystal"
+    },
+    "title": {
+      "translate": "advancements.mana_crystal_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.mana_crystal_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mana_crystal_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:mana_crystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:brocken_mana_crystal_obtaining"
+}

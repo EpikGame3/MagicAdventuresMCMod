@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:water_crystal"
+    },
+    "title": {
+      "translate": "advancements.water_crystal_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.water_crystal_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "water_crystal_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:water_crystal"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:water_soul_obtainig"
+}

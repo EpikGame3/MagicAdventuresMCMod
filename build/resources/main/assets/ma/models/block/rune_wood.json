@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/runichieskoie_brievno",
+    "particle": "ma:blocks/runichieskoie_brievno"
+  },
+  "render_type": "solid"
+}

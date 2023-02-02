@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_axe_blade"
+    },
+    "1": {
+      "item": "ma:holy_ingot"
+    },
+    "3": {
+      "item": "ma:holy_rod"
+    },
+    "5": {
+      "item": "ma:holy_rod"
+    }
+  },
+  "result": {
+    "item": "ma:holy_axe",
+    "count": 1
+  }
+}

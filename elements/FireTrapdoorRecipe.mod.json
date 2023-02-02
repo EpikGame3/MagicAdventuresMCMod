@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FireTrapdoor"
+    },
+    "name": "fire_trapdoor_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/corrupt_leaves",
+    "particle": "ma:blocks/corrupt_leaves"
+  },
+  "render_type": "solid"
+}

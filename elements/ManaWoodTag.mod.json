@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:ManaLog"
+      },
+      {
+        "value": "CUSTOM:ManaWood"
+      },
+      {
+        "value": "CUSTOM:ManaPlanks"
+      },
+      {
+        "value": "CUSTOM:ManaPlanksSlab"
+      },
+      {
+        "value": "CUSTOM:ManaStairs"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "mana_wood_tag",
+    "namespace": "forge"
+  }
+}

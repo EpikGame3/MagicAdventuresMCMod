@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:rune_stone_brick"
+    },
+    "3": {
+      "item": "ma:rune_stone_brick"
+    },
+    "4": {
+      "item": "ma:rune_stone_brick"
+    },
+    "6": {
+      "item": "ma:rune_stone_brick"
+    },
+    "7": {
+      "item": "ma:rune_stone_brick"
+    },
+    "8": {
+      "item": "ma:rune_stone_brick"
+    }
+  },
+  "result": {
+    "item": "ma:rune_brick_stairs",
+    "count": 4
+  }
+}

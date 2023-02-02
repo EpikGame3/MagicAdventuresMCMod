@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/fire_staff",
+  "textures": {
+    "0": "ma:blocks/",
+    "particle": "ma:items/fire_staff_texture"
+  }
+}

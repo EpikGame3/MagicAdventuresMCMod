@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Magic Melee Weapons",
+    "icon": {
+      "value": "CUSTOM:HolyHolyCastingHammer"
+    },
+    "showSearch": false
+  }
+}

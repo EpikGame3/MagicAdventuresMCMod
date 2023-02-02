@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_cast"
+    },
+    "1": {
+      "item": "ma:holy_ingot"
+    },
+    "2": {
+      "item": "ma:holy_cast"
+    },
+    "4": {
+      "item": "ma:holy_rod"
+    },
+    "7": {
+      "item": "ma:holy_rod"
+    }
+  },
+  "result": {
+    "item": "ma:holy_pickaxe",
+    "count": 1
+  }
+}

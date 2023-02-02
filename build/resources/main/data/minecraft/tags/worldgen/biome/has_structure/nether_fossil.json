@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ma:fire_forest",
+    "ma:corrupted_forest",
+    "ma:corrupted_wastelands"
+  ]
+}

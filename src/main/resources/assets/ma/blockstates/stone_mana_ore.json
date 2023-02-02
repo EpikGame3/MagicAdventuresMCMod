@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ma:block/stone_mana_ore"
+    }
+  }
+}

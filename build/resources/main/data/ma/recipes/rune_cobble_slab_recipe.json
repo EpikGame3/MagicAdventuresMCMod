@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:rune_cobblestone"
+    },
+    "1": {
+      "item": "ma:rune_cobblestone"
+    },
+    "2": {
+      "item": "ma:rune_cobblestone"
+    }
+  },
+  "result": {
+    "item": "ma:rune_cobble_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/holy_katana",
+  "textures": {
+    "0": "ma:blocks/holykatanatext",
+    "particle": "ma:items/holykatanatext"
+  }
+}

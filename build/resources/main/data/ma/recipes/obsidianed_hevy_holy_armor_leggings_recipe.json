@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "ma:obsidian_plate"
+    },
+    "1": {
+      "item": "ma:heavy_holy_armor_leggings"
+    },
+    "2": {
+      "item": "ma:obsidian_plate"
+    },
+    "4": {
+      "item": "ma:holy_holy_casting_hammer"
+    }
+  },
+  "result": {
+    "item": "ma:obsidianed_hevy_holy_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ma:mana_leaves",
+    "ma:fire_leaves",
+    "ma:rune_leaves",
+    "ma:corrupt_leaves"
+  ]
+}

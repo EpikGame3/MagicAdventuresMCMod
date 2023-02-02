@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "glowinng_murasama_text"
+      },
+      "name": "default"
+    }
+  }
+}

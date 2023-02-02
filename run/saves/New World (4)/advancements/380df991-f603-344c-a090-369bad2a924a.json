@@ -1,0 +1,28 @@
+{
+  "ma:obsidian_plate_obtaining": {
+    "criteria": {
+      "obsidian_plate_obtaining": "2022-12-14 13:58:38 +0200"
+    },
+    "done": true
+  },
+  "ma:magic_adventures": {
+    "criteria": {
+      "magic_adventures": "2022-12-14 13:58:14 +0200"
+    },
+    "done": true
+  },
+  "ma:new_portal": {
+    "criteria": {
+      "new_portal": "2022-12-14 13:59:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2022-12-14 13:59:20 +0200",
+      "minecraft:plains": "2022-12-14 13:58:15 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

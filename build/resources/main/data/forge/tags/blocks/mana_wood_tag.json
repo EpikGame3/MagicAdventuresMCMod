@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ma:mana_log",
+    "ma:mana_wood",
+    "ma:mana_planks",
+    "ma:mana_planks_slab",
+    "ma:mana_stairs"
+  ]
+}

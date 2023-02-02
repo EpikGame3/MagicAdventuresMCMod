@@ -1,0 +1,6 @@
+JVM:         D:\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\stripClient\output.jar", "--server", "D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\stripServer\output.jar", "--ann", "1.19.2", "--output", "D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\ACER-PC\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: D:\MagicAdventures\build\fg_cache\mcp\1.19.2-20220805.130853\joined\0cd774a43973471b7c44231b6711b37ec417e52c\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

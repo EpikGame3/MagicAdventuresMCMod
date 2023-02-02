@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_holy_casting_hammer"
+    },
+    "1": {
+      "item": "ma:water_ingot"
+    },
+    "2": {
+      "item": "ma:gungnir"
+    }
+  },
+  "result": {
+    "item": "ma:true_gungnir",
+    "count": 1
+  }
+}

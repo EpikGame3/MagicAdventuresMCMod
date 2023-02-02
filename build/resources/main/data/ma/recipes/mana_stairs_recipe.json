@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:mana_planks"
+    },
+    "3": {
+      "item": "ma:mana_planks"
+    },
+    "4": {
+      "item": "ma:mana_planks"
+    },
+    "6": {
+      "item": "ma:mana_planks"
+    },
+    "7": {
+      "item": "ma:mana_planks"
+    },
+    "8": {
+      "item": "ma:mana_planks"
+    }
+  },
+  "result": {
+    "item": "ma:mana_stairs",
+    "count": 4
+  }
+}

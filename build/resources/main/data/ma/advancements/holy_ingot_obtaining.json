@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:holy_ingot"
+    },
+    "title": {
+      "translate": "advancements.holy_ingot_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.holy_ingot_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "holy_ingot_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:holy_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:holy_water_obtaining"
+}

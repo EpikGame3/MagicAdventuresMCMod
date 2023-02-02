@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ma:rune_planks",
+    "ma:rune_log",
+    "ma:rune_wood",
+    "ma:rune_slab",
+    "ma:rune_stairs"
+  ]
+}

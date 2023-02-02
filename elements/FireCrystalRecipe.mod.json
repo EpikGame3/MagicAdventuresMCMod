@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireEssention"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FireEssention"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FireCrystal"
+    },
+    "name": "fire_crystal_recipe",
+    "namespace": "mod"
+  }
+}

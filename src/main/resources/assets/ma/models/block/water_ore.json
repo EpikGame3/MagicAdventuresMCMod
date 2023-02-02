@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/waterore",
+    "particle": "ma:blocks/waterore"
+  },
+  "render_type": "solid"
+}

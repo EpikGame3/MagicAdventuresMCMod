@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:ice_staff"
+    },
+    "title": {
+      "translate": "advancements.ice_staff_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.ice_staff_obtaining.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ice_staff_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:ice_staff"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:ice_crystal_obtaining"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:soul_essention"
+    },
+    "1": {
+      "item": "ma:soul_shard"
+    },
+    "2": {
+      "item": "ma:soul_essention"
+    },
+    "3": {
+      "item": "ma:soul_shard"
+    },
+    "4": {
+      "item": "ma:mana_crystal"
+    },
+    "5": {
+      "item": "ma:soul_shard"
+    },
+    "6": {
+      "item": "ma:soul_essention"
+    },
+    "7": {
+      "item": "ma:soul_shard"
+    },
+    "8": {
+      "item": "ma:soul_essention"
+    }
+  },
+  "result": {
+    "item": "ma:soul_crystal",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ma:blocks/rune_leaves",
+    "particle": "ma:blocks/rune_leaves"
+  },
+  "render_type": "solid"
+}

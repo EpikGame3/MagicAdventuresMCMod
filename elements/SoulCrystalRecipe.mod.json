@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SoulEssention"
+      },
+      {
+        "value": "CUSTOM:SoulShard"
+      },
+      {
+        "value": "CUSTOM:SoulEssention"
+      },
+      {
+        "value": "CUSTOM:SoulShard"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "CUSTOM:SoulShard"
+      },
+      {
+        "value": "CUSTOM:SoulEssention"
+      },
+      {
+        "value": "CUSTOM:SoulShard"
+      },
+      {
+        "value": "CUSTOM:SoulEssention"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SoulCrystal"
+    },
+    "name": "soul_crystal_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:water_ingot"
+    },
+    "title": {
+      "translate": "advancements.water_ingot_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.water_ingot_obtaining.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "water_ingot_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:water_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:water_crystal_obtaining"
+}

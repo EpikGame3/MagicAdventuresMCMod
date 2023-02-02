@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:mana_log"
+    },
+    "1": {
+      "item": "ma:mana_log"
+    },
+    "2": {
+      "item": "ma:mana_log"
+    },
+    "3": {
+      "item": "ma:mana_log"
+    }
+  },
+  "result": {
+    "item": "ma:mana_wood",
+    "count": 3
+  }
+}

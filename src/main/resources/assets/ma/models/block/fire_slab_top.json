@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "ma:blocks/fireplanks",
+    "top": "ma:blocks/fireplanks",
+    "side": "ma:blocks/fireplanks"
+  },
+  "render_type": "solid"
+}

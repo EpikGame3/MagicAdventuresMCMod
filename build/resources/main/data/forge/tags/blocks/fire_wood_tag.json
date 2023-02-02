@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ma:fire_planks",
+    "ma:fire_slab",
+    "ma:fire_stairs",
+    "ma:fire_log",
+    "ma:fire_wood"
+  ]
+}

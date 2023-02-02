@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Items.GOLD_INGOT"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:HolyWater"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:HolyIngot"
+    },
+    "name": "holy_ingot_recipe",
+    "namespace": "mod"
+  }
+}

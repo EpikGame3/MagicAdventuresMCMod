@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "ma:rune_forest",
+    "ma:magic_forest"
+  ],
+  "features": "ma:rune_hollow_ore",
+  "step": "underground_ores"
+}

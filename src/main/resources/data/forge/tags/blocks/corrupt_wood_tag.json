@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "ma:corrupt_slab",
+    "ma:corrupt_log",
+    "ma:corrupt_planks",
+    "ma:corrupt_stairs",
+    "ma:corrupt_wood"
+  ]
+}

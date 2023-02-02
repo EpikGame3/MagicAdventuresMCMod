@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "ma:mana_crystal"
+    },
+    "title": {
+      "translate": "advancements.magic_adventures.title"
+    },
+    "description": {
+      "translate": "advancements.magic_adventures.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "magic_adventures": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

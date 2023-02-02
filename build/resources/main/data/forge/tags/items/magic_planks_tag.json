@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "ma:mana_planks",
+    "ma:fire_planks",
+    "ma:corrupt_planks",
+    "ma:rune_planks"
+  ]
+}

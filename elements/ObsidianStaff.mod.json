@@ -1,0 +1,49 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "obsidian_staff_text",
+    "customModelName": "obsidian_staff:default",
+    "name": "Obsidian Staff",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MagicWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 5412,
+    "actionSound": {
+      "value": "block.dripstone_block.break"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "SoulStaffRangedItemUsed"
+    },
+    "onEntitySwing": {
+      "name": "ObsidianStaffEntitySwingsItem"
+    },
+    "useCondition": {
+      "name": "ObsidianStaffCanUseRangedItem"
+    },
+    "bulletPower": 1.0,
+    "bulletDamage": 10.0,
+    "bulletKnockback": 4,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletFlyingTick": {
+      "name": "ObsidianStaffWhileProjectileFlyingTick"
+    }
+  }
+}

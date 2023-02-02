@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "ma:blocks/mana_trapdoor",
+    "particle": "ma:blocks/mana_trapdoor"
+  },
+  "render_type": "cutout"
+}

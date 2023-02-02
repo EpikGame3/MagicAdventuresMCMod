@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ma:mana_crystal"
+    },
+    "3": {
+      "item": "ma:water_crystal"
+    },
+    "4": {
+      "item": "ma:obsidian_essention"
+    },
+    "5": {
+      "item": "ma:fire_crystal"
+    },
+    "7": {
+      "item": "ma:mana_crystal"
+    }
+  },
+  "result": {
+    "item": "ma:obsidian_crystal",
+    "count": 1
+  }
+}

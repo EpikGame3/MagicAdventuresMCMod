@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CorruptLog"
+      },
+      {
+        "value": "CUSTOM:CorruptWood"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "corrupt_logs_tag",
+    "namespace": "forge"
+  }
+}

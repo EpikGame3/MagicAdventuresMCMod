@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:enderite_crystal"
+    },
+    "2": {
+      "item": "ma:enderite_crystal"
+    },
+    "3": {
+      "item": "ma:enderite_crystal"
+    },
+    "4": {
+      "item": "ma:enderite_crystal"
+    },
+    "5": {
+      "item": "ma:enderite_crystal"
+    },
+    "6": {
+      "item": "ma:enderite_crystal"
+    },
+    "7": {
+      "item": "ma:enderite_crystal"
+    },
+    "8": {
+      "item": "ma:enderite_crystal"
+    }
+  },
+  "result": {
+    "item": "ma:enderite_armor_chestplate",
+    "count": 1
+  }
+}

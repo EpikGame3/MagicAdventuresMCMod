@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "ma:corrupted_wastelands",
+    "ma:corrupted_forest"
+  ],
+  "features": "ma:flying_island_corrupt",
+  "step": "raw_generation"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/icebook",
+  "textures": {
+    "0": "ma:blocks/icebooktext",
+    "particle": "ma:items/ice_essention"
+  }
+}

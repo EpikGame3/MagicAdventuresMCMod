@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:corrupt_log"
+    },
+    "1": {
+      "item": "ma:corrupt_log"
+    },
+    "2": {
+      "item": "ma:corrupt_log"
+    },
+    "3": {
+      "item": "ma:corrupt_log"
+    }
+  },
+  "result": {
+    "item": "ma:corrupt_wood",
+    "count": 3
+  }
+}

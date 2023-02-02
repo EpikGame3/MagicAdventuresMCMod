@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:rune_cobblestone"
+    },
+    "3": {
+      "item": "ma:rune_cobblestone"
+    },
+    "4": {
+      "item": "ma:rune_cobblestone"
+    },
+    "6": {
+      "item": "ma:rune_cobblestone"
+    },
+    "7": {
+      "item": "ma:rune_cobblestone"
+    },
+    "8": {
+      "item": "ma:rune_cobblestone"
+    }
+  },
+  "result": {
+    "item": "ma:rune_cobble_stairs",
+    "count": 4
+  }
+}

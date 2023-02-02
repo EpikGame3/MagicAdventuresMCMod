@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_holy_casting_hammer"
+    },
+    "1": {
+      "item": "ma:obsidian_plate"
+    },
+    "2": {
+      "item": "ma:holy_hammer"
+    }
+  },
+  "result": {
+    "item": "ma:holy_hammer_obsidianed",
+    "count": 1
+  }
+}

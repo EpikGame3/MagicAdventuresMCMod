@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 ",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_nugget"
+    },
+    "2": {
+      "item": "ma:holy_ingot"
+    },
+    "3": {
+      "item": "ma:holy_nugget"
+    }
+  },
+  "result": {
+    "item": "ma:holy_gard",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ma:blocks/runichieskii_vierkh",
+    "up": "ma:blocks/runichieskii_vierkh",
+    "north": "ma:blocks/runichieskoie_brievno",
+    "east": "ma:blocks/runichieskoie_brievno",
+    "south": "ma:blocks/runichieskoie_brievno",
+    "west": "ma:blocks/runichieskoie_brievno",
+    "particle": "ma:blocks/runichieskii_vierkh"
+  },
+  "render_type": "solid"
+}

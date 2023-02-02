@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/battle_axe",
+  "textures": {
+    "0": "ma:blocks/holy_battle_axe_text",
+    "particle": "ma:items/holy_battle_axe_text"
+  }
+}

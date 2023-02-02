@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "ma:fire_forest",
+    "nether_wastes"
+  ],
+  "features": "ma:flying_island_fire",
+  "step": "raw_generation"
+}

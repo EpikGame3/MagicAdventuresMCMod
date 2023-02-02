@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:rune_stone"
+    },
+    "3": {
+      "item": "ma:rune_stone"
+    },
+    "4": {
+      "item": "ma:rune_stone"
+    },
+    "6": {
+      "item": "ma:rune_stone"
+    },
+    "7": {
+      "item": "ma:rune_stone"
+    },
+    "8": {
+      "item": "ma:rune_stone"
+    }
+  },
+  "result": {
+    "item": "ma:rune_stone_stairs",
+    "count": 4
+  }
+}

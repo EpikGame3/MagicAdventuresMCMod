@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RuneLog"
+      },
+      {
+        "value": "CUSTOM:RuneLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RuneLog"
+      },
+      {
+        "value": "CUSTOM:RuneLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RuneWood"
+    },
+    "name": "rune_wood_recipe",
+    "namespace": "mod"
+  }
+}

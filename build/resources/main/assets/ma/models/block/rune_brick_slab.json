@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "ma:blocks/rune_stonr_brick",
+    "top": "ma:blocks/rune_stonr_brick",
+    "side": "ma:blocks/rune_stonr_brick"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_water"
+    },
+    "1": {
+      "item": "ma:mana_crystal"
+    },
+    "2": {
+      "item": "ma:holy_water"
+    },
+    "3": {
+      "item": "ma:mana_crystal"
+    },
+    "4": {
+      "item": "ma:mana_crystal"
+    },
+    "5": {
+      "item": "ma:mana_crystal"
+    },
+    "6": {
+      "item": "ma:holy_water"
+    },
+    "7": {
+      "item": "ma:mana_crystal"
+    },
+    "8": {
+      "item": "ma:holy_water"
+    }
+  },
+  "result": {
+    "item": "ma:concentrated_mana_crystal",
+    "count": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ma:enderite_crystal"
+    },
+    "1": {
+      "item": "ma:enderite_crystal"
+    },
+    "2": {
+      "item": "ma:enderite_crystal"
+    },
+    "4": {
+      "item": "ma:holy_rod"
+    },
+    "7": {
+      "item": "ma:holy_rod"
+    }
+  },
+  "result": {
+    "item": "ma:enderite_pickaxe",
+    "count": 1
+  }
+}

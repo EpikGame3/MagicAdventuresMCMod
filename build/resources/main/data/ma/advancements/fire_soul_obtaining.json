@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:fire_essention"
+    },
+    "title": {
+      "translate": "advancements.fire_soul_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.fire_soul_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_soul_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:fire_essention"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:mana_crystal_obtaining"
+}

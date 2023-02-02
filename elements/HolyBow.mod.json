@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 1,
+    "texture": "holybow_text_1",
+    "customModelName": "holybow:default",
+    "name": "Holy Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MagicWeapons"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Items.SPECTRAL_ARROW"
+    },
+    "shootConstantly": false,
+    "usageCount": 2513,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.2,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:HolyNugget"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "ExcaliburLivingEntityIsHitWithTool"
+    }
+  }
+}

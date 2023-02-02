@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "ma:blocks/rune_stone_cobble",
+    "top": "ma:blocks/rune_stone_cobble",
+    "side": "ma:blocks/rune_stone_cobble"
+  },
+  "render_type": "solid"
+}

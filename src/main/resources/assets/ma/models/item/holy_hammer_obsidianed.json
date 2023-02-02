@@ -1,0 +1,8 @@
+{
+  "parent": "ma:custom/holy_hammer_up",
+  "textures": {
+    "0": "ma:blocks/holyhammerupv2",
+    "missing": "ma:blocks/holyhammerupv2",
+    "particle": "ma:items/holy_hammer_text"
+  }
+}

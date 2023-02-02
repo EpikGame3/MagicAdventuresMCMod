@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:CorruptLog"
+      },
+      {
+        "value": "CUSTOM:CorruptWood"
+      },
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      },
+      {
+        "value": "CUSTOM:CorruptSlab"
+      },
+      {
+        "value": "CUSTOM:CorruptStairs"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "corrupt_wood_tag",
+    "namespace": "forge"
+  }
+}

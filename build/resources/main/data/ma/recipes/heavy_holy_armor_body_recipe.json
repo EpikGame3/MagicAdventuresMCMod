@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_plate"
+    },
+    "2": {
+      "item": "ma:holy_plate"
+    },
+    "3": {
+      "item": "ma:holy_ingot"
+    },
+    "4": {
+      "item": "ma:holy_steel_block"
+    },
+    "5": {
+      "item": "ma:holy_ingot"
+    },
+    "7": {
+      "item": "ma:holy_plate"
+    }
+  },
+  "result": {
+    "item": "ma:heavy_holy_armor_chestplate",
+    "count": 1
+  }
+}

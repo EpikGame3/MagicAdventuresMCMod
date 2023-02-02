@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:FireLog"
+      },
+      {
+        "value": "CUSTOM:FireWood"
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      },
+      {
+        "value": "CUSTOM:FireSlab"
+      },
+      {
+        "value": "CUSTOM:FireStairs"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "fire_wood_tag",
+    "namespace": "forge"
+  }
+}

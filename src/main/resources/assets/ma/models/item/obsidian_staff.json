@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/obsidian_staff",
+  "textures": {
+    "0": "ma:blocks/obsidianstaffv2",
+    "particle": "ma:items/obsidian_staff_text"
+  }
+}

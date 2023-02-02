@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ma:soul_essention"
+    },
+    "3": {
+      "item": "ma:soul_essention"
+    },
+    "4": {
+      "item": "ma:brocken_mana_crystal"
+    },
+    "5": {
+      "item": "ma:soul_essention"
+    },
+    "7": {
+      "item": "ma:soul_essention"
+    }
+  },
+  "result": {
+    "item": "ma:soul_shard",
+    "count": 2
+  }
+}

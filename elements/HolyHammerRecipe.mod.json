@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HolySteelBlock"
+      },
+      {
+        "value": "CUSTOM:HolySteelBlock"
+      },
+      {
+        "value": "CUSTOM:HolySteelBlock"
+      },
+      {
+        "value": "CUSTOM:HolySteelBlock"
+      },
+      {
+        "value": "CUSTOM:HolyRod"
+      },
+      {
+        "value": "CUSTOM:HolySteelBlock"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HolyRod"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HolyHammer"
+    },
+    "name": "holy_hammer_recipe",
+    "namespace": "mod"
+  }
+}

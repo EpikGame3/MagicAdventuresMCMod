@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ma:block/rune_slab"
+    },
+    "type=top": {
+      "model": "ma:block/rune_slab_top"
+    },
+    "type=double": {
+      "model": "ma:block/rune_slab_full"
+    }
+  }
+}

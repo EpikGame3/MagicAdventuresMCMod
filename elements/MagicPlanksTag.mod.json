@@ -1,0 +1,27 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ManaPlanks"
+      },
+      {
+        "value": "CUSTOM:FirePlanks"
+      },
+      {
+        "value": "CUSTOM:RunePlanks"
+      },
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "magic_planks_tag",
+    "namespace": "forge"
+  }
+}

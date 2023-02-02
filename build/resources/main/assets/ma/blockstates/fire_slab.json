@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ma:block/fire_slab"
+    },
+    "type=top": {
+      "model": "ma:block/fire_slab_top"
+    },
+    "type=double": {
+      "model": "ma:block/fire_slab_full"
+    }
+  }
+}

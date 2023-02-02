@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "ma:stone_axe_blade"
+    },
+    "title": {
+      "translate": "advancements.stone_axe_blade_obtaining.title"
+    },
+    "description": {
+      "translate": "advancements.stone_axe_blade_obtaining.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "stone_axe_blade_obtaining": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "ma:stone_axe_blade"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "ma:stone_crystal_obtaining"
+}

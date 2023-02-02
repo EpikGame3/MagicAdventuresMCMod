@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "excalibur_text"
+      },
+      "name": "default"
+    }
+  }
+}

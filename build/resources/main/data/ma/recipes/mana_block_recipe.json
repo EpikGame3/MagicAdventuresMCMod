@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:mana_crystal"
+    },
+    "1": {
+      "item": "ma:mana_crystal"
+    },
+    "2": {
+      "item": "ma:mana_crystal"
+    },
+    "3": {
+      "item": "ma:mana_crystal"
+    },
+    "4": {
+      "item": "ma:concentrated_mana_crystal"
+    },
+    "5": {
+      "item": "ma:mana_crystal"
+    },
+    "6": {
+      "item": "ma:mana_crystal"
+    },
+    "7": {
+      "item": "ma:mana_crystal"
+    },
+    "8": {
+      "item": "ma:mana_crystal"
+    }
+  },
+  "result": {
+    "item": "ma:mana_block",
+    "count": 1
+  }
+}

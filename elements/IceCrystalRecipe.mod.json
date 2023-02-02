@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IceEssention"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.BLUE_ICE"
+      },
+      {
+        "value": "CUSTOM:ManaCrystal"
+      },
+      {
+        "value": "Blocks.BLUE_ICE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IceEssention"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IceCrystal"
+    },
+    "name": "ice_crystal_recipe",
+    "namespace": "mod"
+  }
+}

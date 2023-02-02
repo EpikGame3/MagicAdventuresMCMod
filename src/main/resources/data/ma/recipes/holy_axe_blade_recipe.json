@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "1": {
+      "item": "ma:uncomplite_holy_blade"
+    },
+    "2": {
+      "item": "ma:uncomplite_holy_blade"
+    },
+    "3": {
+      "item": "ma:holy_steel_block"
+    },
+    "5": {
+      "item": "ma:uncomplite_holy_blade"
+    }
+  },
+  "result": {
+    "item": "ma:holy_axe_blade",
+    "count": 1
+  }
+}

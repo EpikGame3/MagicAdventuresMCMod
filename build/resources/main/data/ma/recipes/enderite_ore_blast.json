@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "ma:enderite_ore"
+  },
+  "result": "ma:enderite_crystal"
+}

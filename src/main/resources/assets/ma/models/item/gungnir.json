@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/gungnir",
+  "textures": {
+    "0": "ma:blocks/gungnir_text",
+    "particle": "ma:items/gungnir_text"
+  }
+}

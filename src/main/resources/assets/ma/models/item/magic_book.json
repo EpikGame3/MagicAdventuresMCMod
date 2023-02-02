@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/magicbook",
+  "textures": {
+    "0": "ma:blocks/magicbooktext",
+    "particle": "ma:items/broken_mana_crystal"
+  }
+}

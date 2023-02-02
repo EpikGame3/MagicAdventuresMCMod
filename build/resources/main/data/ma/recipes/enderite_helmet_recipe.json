@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:enderite_crystal"
+    },
+    "1": {
+      "item": "ma:enderite_crystal"
+    },
+    "2": {
+      "item": "ma:enderite_crystal"
+    },
+    "3": {
+      "item": "ma:enderite_crystal"
+    },
+    "5": {
+      "item": "ma:enderite_crystal"
+    }
+  },
+  "result": {
+    "item": "ma:enderite_armor_helmet",
+    "count": 1
+  }
+}

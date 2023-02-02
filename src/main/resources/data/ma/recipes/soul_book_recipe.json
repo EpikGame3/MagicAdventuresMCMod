@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "ma:soul_shard"
+    },
+    "3": {
+      "item": "ma:soul_crystal"
+    },
+    "4": {
+      "item": "ma:magic_book"
+    },
+    "5": {
+      "item": "ma:soul_crystal"
+    },
+    "7": {
+      "item": "ma:soul_shard"
+    }
+  },
+  "result": {
+    "item": "ma:soul_book",
+    "count": 1
+  }
+}

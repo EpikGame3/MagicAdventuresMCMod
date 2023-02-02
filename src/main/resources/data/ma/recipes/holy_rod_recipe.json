@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "ma:holy_ingot"
+    },
+    "1": {
+      "item": "ma:holy_ingot"
+    }
+  },
+  "result": {
+    "item": "ma:holy_rod",
+    "count": 2
+  }
+}

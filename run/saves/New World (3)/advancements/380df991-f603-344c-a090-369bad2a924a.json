@@ -1,0 +1,436 @@
+{
+  "ma:holy_belt_obtaining": {
+    "criteria": {
+      "holy_belt_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:soul_staff_obtaining": {
+    "criteria": {
+      "soul_staff_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_necklace_obtaining": {
+    "criteria": {
+      "holy_necklace_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:soul_crystal_obtaining": {
+    "criteria": {
+      "soul_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2022-12-14 13:27:24 +0200"
+    },
+    "done": true
+  },
+  "ma:soul_essention_obtaining": {
+    "criteria": {
+      "soul_essention_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:obsidian_staff_obtaining": {
+    "criteria": {
+      "obsidian_staff_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_soul_obtaining": {
+    "criteria": {
+      "fire_soul_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:axe_blade_obtaining": {
+    "criteria": {
+      "axe_blade_obtaining": "2022-12-14 13:49:51 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_ingot_obtaining": {
+    "criteria": {
+      "holy_ingot_obtaining": "2022-12-14 13:50:08 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_ingot_obtaining": {
+    "criteria": {
+      "fire_ingot_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_water_obtaining": {
+    "criteria": {
+      "holy_water_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_battle_axe_obtaining": {
+    "criteria": {
+      "holy_battle_axe_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_string_obtaining": {
+    "criteria": {
+      "holy_string_obtaining": "2022-12-14 13:49:51 +0200"
+    },
+    "done": true
+  },
+  "ma:skulk_book_obtaining": {
+    "criteria": {
+      "skulk_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "ma:water_crystal_obtaining": {
+    "criteria": {
+      "water_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:obsidian_soul_obtaining": {
+    "criteria": {
+      "obsidian_soul_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:concentrated_mana_crystal_use": {
+    "criteria": {
+      "concentrated_mana_crystal_use": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mangrove_swamp": "2022-12-14 12:59:09 +0200",
+      "minecraft:jungle": "2022-12-14 12:58:51 +0200"
+    },
+    "done": false
+  },
+  "ma:water_soul_obtainig": {
+    "criteria": {
+      "water_soul_obtainig": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:obsidian_hammer_obtaining": {
+    "criteria": {
+      "obsidian_hammer_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_book_obtaining": {
+    "criteria": {
+      "stone_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "ma:soul_bow_obtaining": {
+    "criteria": {
+      "soul_bow_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-12-14 13:24:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-12-14 13:25:33 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_gard_obtaining": {
+    "criteria": {
+      "holy_gard_obtaining": "2022-12-14 13:49:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2022-12-14 13:24:42 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_katana_obtaining": {
+    "criteria": {
+      "holy_katana_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:ice_book_obtaining": {
+    "criteria": {
+      "ice_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-12-14 13:24:42 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_axe_blade_obtaining": {
+    "criteria": {
+      "stone_axe_blade_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:ice_staff_obtaining": {
+    "criteria": {
+      "ice_staff_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-12-14 13:27:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-12-14 13:24:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-12-14 13:24:42 +0200"
+    },
+    "done": true
+  },
+  "ma:skulk_soul_obaining": {
+    "criteria": {
+      "skulk_soul_obaining": "2022-12-14 13:47:17 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_staff_obtaining": {
+    "criteria": {
+      "stone_staff_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:excalibur_obtaining": {
+    "criteria": {
+      "excalibur_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:water_staff_obtaining": {
+    "criteria": {
+      "water_staff_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_bow_obtaining": {
+    "criteria": {
+      "holy_bow_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-12-14 13:24:42 +0200"
+    },
+    "done": true
+  },
+  "ma:ice_crystal_obtaining": {
+    "criteria": {
+      "ice_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2022-12-14 13:27:24 +0200"
+    },
+    "done": false
+  },
+  "ma:water_book_obtaining": {
+    "criteria": {
+      "water_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "ma:soul_book_obtaining": {
+    "criteria": {
+      "soul_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "ma:ice_blade_obtaining": {
+    "criteria": {
+      "ice_blade_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_crystal_obtaining": {
+    "criteria": {
+      "stone_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_blade_obtaining": {
+    "criteria": {
+      "holy_blade_obtaining": "2022-12-14 13:49:51 +0200"
+    },
+    "done": true
+  },
+  "ma:obsidian_crystal_obtaining": {
+    "criteria": {
+      "obsidian_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_excalibur_obtaining": {
+    "criteria": {
+      "fire_excalibur_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:soul_shard_obtaining": {
+    "criteria": {
+      "soul_shard_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:mana_book_obtaining": {
+    "criteria": {
+      "mana_book_obtaining": "2022-12-14 13:47:51 +0200"
+    },
+    "done": true
+  },
+  "ma:obsidian_plate_obtaining": {
+    "criteria": {
+      "obsidian_plate_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:ice_soul_obtaining": {
+    "criteria": {
+      "ice_soul_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_soul_obtaining": {
+    "criteria": {
+      "stone_soul_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:gungnir_obtaining": {
+    "criteria": {
+      "gungnir_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:magic_adventures": {
+    "criteria": {
+      "magic_adventures": "2022-12-14 12:58:49 +0200"
+    },
+    "done": true
+  },
+  "ma:brocken_mana_crystal_obtaining": {
+    "criteria": {
+      "brocken_mana_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:holy_hammer_obtaining": {
+    "criteria": {
+      "holy_hammer_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_staff_obtaining": {
+    "criteria": {
+      "fire_staff_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-12-14 13:29:29 +0200"
+    },
+    "done": true
+  },
+  "ma:magic_book_obtaining": {
+    "criteria": {
+      "magic_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-12-14 13:24:42 +0200"
+    },
+    "done": true
+  },
+  "ma:vte_7_obtaining": {
+    "criteria": {
+      "vte_7_obtaining": "2022-12-14 13:49:50 +0200"
+    },
+    "done": true
+  },
+  "ma:stone_battle_axe_obtaining": {
+    "criteria": {
+      "stone_battle_axe_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:mana_crystal_obtaining": {
+    "criteria": {
+      "mana_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:obsidian_book_obtaining": {
+    "criteria": {
+      "obsidian_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_crystal_obtaining": {
+    "criteria": {
+      "fire_crystal_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:ice_katana_obtaining": {
+    "criteria": {
+      "ice_katana_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "ma:water_ingot_obtaining": {
+    "criteria": {
+      "water_ingot_obtaining": "2022-12-14 13:48:34 +0200"
+    },
+    "done": true
+  },
+  "ma:fire_book_obtaining": {
+    "criteria": {
+      "fire_book_obtaining": "2022-12-14 13:47:50 +0200"
+    },
+    "done": true
+  },
+  "ma:mana_chocolte_obtaining": {
+    "criteria": {
+      "mana_chocolte_obtaining": "2022-12-14 13:49:11 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

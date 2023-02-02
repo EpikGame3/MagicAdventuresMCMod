@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "holy_battle_axe_up_text"
+      },
+      "name": "default"
+    }
+  }
+}

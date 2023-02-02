@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "ma:holy_nugget"
+    },
+    "2": {
+      "item": "ma:ice_crystal"
+    },
+    "4": {
+      "item": "ma:holy_rod"
+    },
+    "5": {
+      "item": "ma:holy_nugget"
+    },
+    "6": {
+      "item": "ma:holy_rod"
+    }
+  },
+  "result": {
+    "item": "ma:ice_staff",
+    "count": 1
+  }
+}
