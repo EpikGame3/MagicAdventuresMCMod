@@ -21,6 +21,9 @@
     "usageCount": 5127,
     "blocksAffected": [],
     "hasGlow": true,
+    "glowCondition": {
+      "name": "VTE7MakeItemGlow"
+    },
     "repairItems": [
       {
         "value": "CUSTOM:FireIngot"
@@ -28,6 +31,9 @@
     ],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "VTE7Rightclicked"
+    }
   }
 }

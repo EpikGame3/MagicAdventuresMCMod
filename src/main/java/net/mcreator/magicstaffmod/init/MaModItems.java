@@ -35,9 +35,6 @@ import net.mcreator.magicstaffmod.item.SoulShardItem;
 import net.mcreator.magicstaffmod.item.SoulEssentionItem;
 import net.mcreator.magicstaffmod.item.SoulCrystalItem;
 import net.mcreator.magicstaffmod.item.SoulBookItem;
-import net.mcreator.magicstaffmod.item.SkulkEssentionItem;
-import net.mcreator.magicstaffmod.item.SkulkCrystalItem;
-import net.mcreator.magicstaffmod.item.SkulkBookItem;
 import net.mcreator.magicstaffmod.item.RuneBeaconCoreItem;
 import net.mcreator.magicstaffmod.item.RawHollowOreItem;
 import net.mcreator.magicstaffmod.item.ObsidianedHevyHolyArmorItem;
@@ -46,6 +43,8 @@ import net.mcreator.magicstaffmod.item.ObsidianPlateItem;
 import net.mcreator.magicstaffmod.item.ObsidianEssentionItem;
 import net.mcreator.magicstaffmod.item.ObsidianCrystalItem;
 import net.mcreator.magicstaffmod.item.ObsidianBookItem;
+import net.mcreator.magicstaffmod.item.MurasamaShotItem;
+import net.mcreator.magicstaffmod.item.MurasamaProjectileItem;
 import net.mcreator.magicstaffmod.item.ManaNecklaceItem;
 import net.mcreator.magicstaffmod.item.ManaCrystalItem;
 import net.mcreator.magicstaffmod.item.ManaChocolateItem;
@@ -116,7 +115,6 @@ public class MaModItems {
 	public static final RegistryObject<Item> SOUL_BOOK = REGISTRY.register("soul_book", () -> new SoulBookItem());
 	public static final RegistryObject<Item> HOLY_BOW = REGISTRY.register("holy_bow", () -> new HolyBowItem());
 	public static final RegistryObject<Item> HOLY_BOW_UP = REGISTRY.register("holy_bow_up", () -> new HolyBowUpItem());
-	public static final RegistryObject<Item> SKULK_BOOK = REGISTRY.register("skulk_book", () -> new SkulkBookItem());
 	public static final RegistryObject<Item> STONE_MANA_ORE = block(MaModBlocks.STONE_MANA_ORE, MaModTabs.TAB_MAGIC_RESOURSES);
 	public static final RegistryObject<Item> DEEPSLATE_MANA_ORE = block(MaModBlocks.DEEPSLATE_MANA_ORE, MaModTabs.TAB_MAGIC_RESOURSES);
 	public static final RegistryObject<Item> BROCKEN_MANA_CRYSTAL = REGISTRY.register("brocken_mana_crystal", () -> new BrockenManaCrystalItem());
@@ -163,8 +161,6 @@ public class MaModItems {
 	public static final RegistryObject<Item> HOLY_AXE_BLADE = REGISTRY.register("holy_axe_blade", () -> new HolyAxeBladeItem());
 	public static final RegistryObject<Item> HOLY_GARD = REGISTRY.register("holy_gard", () -> new HolyGardItem());
 	public static final RegistryObject<Item> UNCOMPLITE_HOLY_BLADE = REGISTRY.register("uncomplite_holy_blade", () -> new UncompliteHolyBladeItem());
-	public static final RegistryObject<Item> SKULK_ESSENTION = REGISTRY.register("skulk_essention", () -> new SkulkEssentionItem());
-	public static final RegistryObject<Item> SKULK_CRYSTAL = REGISTRY.register("skulk_crystal", () -> new SkulkCrystalItem());
 	public static final RegistryObject<Item> ENDERITE_ORE = block(MaModBlocks.ENDERITE_ORE, MaModTabs.TAB_MAGIC_RESOURSES);
 	public static final RegistryObject<Item> ENDERITE_CRYSTAL = REGISTRY.register("enderite_crystal", () -> new EnderiteCrystalItem());
 	public static final RegistryObject<Item> HOLY_HAMMER = REGISTRY.register("holy_hammer", () -> new HolyHammerItem());
@@ -180,8 +176,7 @@ public class MaModItems {
 	public static final RegistryObject<Item> STONE_BATTLE_AXE = REGISTRY.register("stone_battle_axe", () -> new StoneBattleAxeItem());
 	public static final RegistryObject<Item> HOLY_AXE = REGISTRY.register("holy_axe", () -> new HolyAxeItem());
 	public static final RegistryObject<Item> HOLY_PICKAXE = REGISTRY.register("holy_pickaxe", () -> new HolyPickaxeItem());
-	public static final RegistryObject<Item> HOLY_HOLY_CASTING_HAMMER = REGISTRY.register("holy_holy_casting_hammer",
-			() -> new HolyHolyCastingHammerItem());
+	public static final RegistryObject<Item> HOLY_CASTING_HAMMER = REGISTRY.register("holy_casting_hammer", () -> new HolyHolyCastingHammerItem());
 	public static final RegistryObject<Item> ENDERITE_PICKAXE = REGISTRY.register("enderite_pickaxe", () -> new EnderitePickaxeItem());
 	public static final RegistryObject<Item> ENDERITE_AXE = REGISTRY.register("enderite_axe", () -> new EnderiteAxeItem());
 	public static final RegistryObject<Item> ENDERITE_SHOVEL = REGISTRY.register("enderite_shovel", () -> new EnderiteShovelItem());
@@ -275,6 +270,8 @@ public class MaModItems {
 	public static final RegistryObject<Item> RUNE_BEACON_CORE = REGISTRY.register("rune_beacon_core", () -> new RuneBeaconCoreItem());
 	public static final RegistryObject<Item> RAW_HOLLOW_ORE = REGISTRY.register("raw_hollow_ore", () -> new RawHollowOreItem());
 	public static final RegistryObject<Item> VT_7 = REGISTRY.register("vt_7", () -> new VTE7Item());
+	public static final RegistryObject<Item> MURASAMA_PROJECTILE = REGISTRY.register("murasama_projectile", () -> new MurasamaProjectileItem());
+	public static final RegistryObject<Item> MURASAMA_SHOT = REGISTRY.register("murasama_shot", () -> new MurasamaShotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

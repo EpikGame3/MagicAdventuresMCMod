@@ -22,8 +22,8 @@ import net.mcreator.magicstaffmod.entity.TrueGungnirEntity;
 import net.mcreator.magicstaffmod.entity.StoneStaffEntity;
 import net.mcreator.magicstaffmod.entity.SoulStaffEntity;
 import net.mcreator.magicstaffmod.entity.SoulBookEntity;
-import net.mcreator.magicstaffmod.entity.SkulkBookEntity;
 import net.mcreator.magicstaffmod.entity.ObsidianStaffEntity;
+import net.mcreator.magicstaffmod.entity.MurasamaShotEntity;
 import net.mcreator.magicstaffmod.entity.IceStaffEntity;
 import net.mcreator.magicstaffmod.entity.IceBookEntity;
 import net.mcreator.magicstaffmod.entity.HolyBowUpEntity;
@@ -71,11 +71,11 @@ public class MaModEntities {
 	public static final RegistryObject<EntityType<HolyBowUpEntity>> HOLY_BOW_UP = register("projectile_holy_bow_up",
 			EntityType.Builder.<HolyBowUpEntity>of(HolyBowUpEntity::new, MobCategory.MISC).setCustomClientFactory(HolyBowUpEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<SkulkBookEntity>> SKULK_BOOK = register("projectile_skulk_book",
-			EntityType.Builder.<SkulkBookEntity>of(SkulkBookEntity::new, MobCategory.MISC).setCustomClientFactory(SkulkBookEntity::new)
-					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<TrueGungnirEntity>> TRUE_GUNGNIR = register("projectile_true_gungnir",
 			EntityType.Builder.<TrueGungnirEntity>of(TrueGungnirEntity::new, MobCategory.MISC).setCustomClientFactory(TrueGungnirEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<MurasamaShotEntity>> MURASAMA_SHOT = register("projectile_murasama_shot",
+			EntityType.Builder.<MurasamaShotEntity>of(MurasamaShotEntity::new, MobCategory.MISC).setCustomClientFactory(MurasamaShotEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {

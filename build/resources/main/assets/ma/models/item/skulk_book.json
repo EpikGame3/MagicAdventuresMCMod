@@ -1,7 +1,0 @@
-{
-  "parent": "ma:custom/skulkbook",
-  "textures": {
-    "0": "ma:blocks/skulkbooktext",
-    "particle": "ma:items/skulk_essention"
-  }
-}

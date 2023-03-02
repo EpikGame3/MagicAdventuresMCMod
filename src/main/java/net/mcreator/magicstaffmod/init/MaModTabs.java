@@ -39,7 +39,7 @@ public class MaModTabs {
 		TAB_MAGIC_MELEE_WEAPONS = new CreativeModeTab("tabmagic_melee_weapons") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(MaModItems.HOLY_HOLY_CASTING_HAMMER.get());
+				return new ItemStack(MaModItems.HOLY_CASTING_HAMMER.get());
 			}
 
 			@Override

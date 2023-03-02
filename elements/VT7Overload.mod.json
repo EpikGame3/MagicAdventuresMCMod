@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "VT 7 Overload",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "VT7OverloadOnKeyPressed"
+    }
+  }
+}

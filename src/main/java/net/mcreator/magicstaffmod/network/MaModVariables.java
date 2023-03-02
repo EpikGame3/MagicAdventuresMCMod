@@ -74,6 +74,7 @@ public class MaModVariables {
 					.orElse(new PlayerVariables()));
 			clone.mana = original.mana;
 			if (!event.isWasDeath()) {
+				clone.vt7Overload = original.vt7Overload;
 			}
 		}
 	}
@@ -110,6 +111,7 @@ public class MaModVariables {
 
 	public static class PlayerVariables {
 		public double mana = 50.0;
+		public boolean vt7Overload = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -119,12 +121,14 @@ public class MaModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("mana", mana);
+			nbt.putBoolean("vt7Overload", vt7Overload);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			mana = nbt.getDouble("mana");
+			vt7Overload = nbt.getBoolean("vt7Overload");
 		}
 	}
 
@@ -151,6 +155,7 @@ public class MaModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new PlayerVariables()));
 					variables.mana = message.data.mana;
+					variables.vt7Overload = message.data.vt7Overload;
 				}
 			});
 			context.setPacketHandled(true);

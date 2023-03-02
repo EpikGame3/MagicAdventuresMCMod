@@ -27,7 +27,7 @@ public class MaModEntityRenderers {
 		event.registerEntityRenderer(MaModEntities.SOUL_BOOK.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MaModEntities.HOLY_BOW.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MaModEntities.HOLY_BOW_UP.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(MaModEntities.SKULK_BOOK.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(MaModEntities.TRUE_GUNGNIR.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(MaModEntities.MURASAMA_SHOT.get(), ThrownItemRenderer::new);
 	}
 }

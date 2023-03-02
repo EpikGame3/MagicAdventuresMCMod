@@ -1,0 +1,7 @@
+{
+  "parent": "ma:custom/murasama",
+  "textures": {
+    "0": "ma:blocks/murasamatext",
+    "particle": "ma:items/fireingot"
+  }
+}

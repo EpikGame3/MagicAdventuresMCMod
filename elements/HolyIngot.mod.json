@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "hollowingot",
     "customModelName": "Normal",
-    "name": "Hollow Ingot",
+    "name": "Hallow Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:MagicResourses"
